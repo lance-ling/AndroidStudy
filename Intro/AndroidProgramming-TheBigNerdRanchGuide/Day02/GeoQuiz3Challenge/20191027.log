@@ -1,0 +1,790 @@
+10-27 23:41:54.153 8426-8426/? D/UsbConnectedService: Keyguard unlock!
+10-27 23:41:54.163 327-327/? I/gralloc: Free handle(0x7f8d4b8e00)
+10-27 23:41:54.175 1372-1372/? D/HwSmallMusicView: onDetachedFromWindow
+10-27 23:41:54.175 1372-1372/? D/KeyguardStatusViewEx: KeyguardStatusViewEx onDetachedFromWindow
+10-27 23:41:54.179 918-2061/? D/NetdConnector: SND -> {1756 bandwidth gettetherstats}
+10-27 23:41:54.184 451-1006/? V/CommandListener: bwctrlcmd: argc=2 bandwidth gettetherstats ...
+10-27 23:41:54.185 918-1230/? D/NetdConnector: RCV <- {200 1756 Tethering stats list completed}
+10-27 23:41:54.186 918-1230/? D/NetdConnector: RCV <- {200 1756 Tethering stats list completed}
+10-27 23:41:54.186 918-941/? I/HwMtmBroadcastResourceManager: removeReceiver mtm Broadcast
+10-27 23:41:54.187 1372-1372/? D/KeyguardStatusViewEx: KeyguardStatusViewEx onDetachedFromWindow
+10-27 23:41:54.187 918-2061/? W/NetworkStatsFactory: mStatsXtProcUid: /proc/net/comm/stats does not exist!
+10-27 23:41:54.187 918-2061/? D/NetworkStats: mActiveIface: null
+10-27 23:41:54.190 918-2061/? I/SendBroadcastPermission: action:com.android.server.action.NETWORK_STATS_UPDATED, mPermissionType:0
+10-27 23:41:54.191 1771-2308/? E/HwSystemManager: TrafficNotifyAfterLocked:analyseTrafficAfterUnLocked: network template is null!
+10-27 23:41:54.192 918-1232/? V/NetworkPolicy: updateNetworkEnabledLocked()
+10-27 23:41:54.192 918-1232/? V/NetworkPolicy: updateNotificationsLocked()
+10-27 23:41:54.217 1355-1355/? W/View: requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{9b9d29f V.E...... ......ID 0,0-270,72 #7f1000e8 app:id/notificationIcons} during layout: running second layout pass
+10-27 23:41:54.224 1372-1372/? D/MagazineLockScreen: onDetachedFromWindow
+10-27 23:41:54.224 1372-1372/? D/MagazineLockScreen: MagazineLockScreen refreshHwNotificationView visiblity=8
+10-27 23:41:54.225 1372-1372/? I/HwMusicManager: unRegisterCallback com.android.huawei.music.HwMusicView$1@53d7674, callback size = 1
+10-27 23:41:54.225 1372-1372/? I/HwMusic: endObserver mContext=com.android.keyguard.KeyguardApplication@d4587b0
+10-27 23:41:54.226 918-2015/? I/HwMtmBroadcastResourceManager: removeReceiver mtm Broadcast
+10-27 23:41:54.226 1372-1372/? D/HwLockScreenImpl: onDetachedFromWindow
+10-27 23:41:54.227 918-1768/? I/HwMtmBroadcastResourceManager: removeReceiver mtm Broadcast
+10-27 23:41:54.227 918-940/? I/HwMtmBroadcastResourceManager: removeReceiver mtm Broadcast
+10-27 23:41:54.228 1372-1372/? D/KeyguardStatusViewEx: KeyguardStatusViewEx onDetachedFromWindow
+10-27 23:41:54.228 1372-1372/? D/HwMusicView: onDetachedFromWindow
+10-27 23:41:54.228 1372-1372/? I/InfoCenterView: unRegisterCallback com.android.huawei.music.HwMusicView$2@bf585e0, callback size = 1
+10-27 23:41:54.228 1372-1372/? D/MusicUtils: sendLyricsBroadcast show=false,x=0,y=0
+10-27 23:41:54.228 1372-1372/? I/SendBroadcastPermission: action:com.android.keyguard.intent.action.ACTION_LYRICS, mPermissionType:0
+10-27 23:41:54.229 918-2020/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.android.keyguard.intent.action.ACTION_LYRICS flg=0x20000010 pkg=com.android.mediacenter (has extras) }, receivers: null
+10-27 23:41:54.229 1372-1372/? I/CameraLayout: onDetachedFromWindow
+10-27 23:41:54.230 1372-1372/? D/KeyguardMultiUserSelectorView: KeyguardMultiUserSelectorView onDetachedFromWindow
+10-27 23:41:54.230 918-1811/? I/HwMtmBroadcastResourceManager: removeReceiver mtm Broadcast
+10-27 23:41:54.230 1372-1372/? D/HwNotification: HwNotificationView onDetachedFromWindow
+10-27 23:41:54.231 2090-2090/? I/SendBroadcastPermission: action:com.huawei.android.action.WIDGET_FOCUS_CHANGE, mPermissionType:0
+10-27 23:41:54.231 1372-1372/? W/HwNotification: setDisplayView linearlayout is nulll
+10-27 23:41:54.231 1372-1372/? V/KeyguardDisplayManager: hide
+10-27 23:41:54.231 918-1227/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.android.action.WIDGET_FOCUS_CHANGE flg=0x10 (has extras) }, receivers: null
+10-27 23:41:54.232 2090-2090/? I/SendBroadcastPermission: action:com.huawei.android.action.ACTION_UPDATE_TIME_CHECK, mPermissionType:0
+10-27 23:41:54.233 918-2006/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.android.action.ACTION_UPDATE_TIME_CHECK flg=0x10 pkg=com.huawei.android.totemweather (has extras) }, receivers: [ResolveInfo{a0b13f5 com.huawei.android.totemweather/.utils.CenterReceiver m=0x108000 euid=0}]
+10-27 23:41:54.238 1372-1372/? D/KeyguardViewMediator: handleFingerTurnOnScreen skipped
+10-27 23:41:54.243 918-940/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{7ab116c 9439:com.huawei.hwvplayer.youku:channel/u0a24}, flags: 400
+10-27 23:41:54.244 918-940/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{772a7fb u0 euid: 0 com.huawei.hwvplayer.youku/.TaobaoIntentService}, euid: 0
+10-27 23:41:54.244 918-2020/? W/InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@2223018 attribute=android.view.inputmethod.EditorInfo@dc5fa71, token = android.os.BinderProxy@7770dbc
+10-27 23:41:54.262 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:54.280 1771-2271/? E/HwSystemManager: NatTrafficNotifyService:imsi is null, so return
+10-27 23:41:54.298 918-1478/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{8bb30b6 21040:com.huawei.android.totemweather/u0a26}, flags: 400
+10-27 23:41:54.299 918-1478/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{46eccad u0 euid: 0 com.huawei.android.totemweather/.WeatherService}, euid: 0
+10-27 23:41:54.304 21040-21040/? D/HwCust: Create obj success use class com.huawei.android.totemweather.utils.HwCustTotemLocationImpl
+10-27 23:41:54.313 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:54.320 21040-10153/? W/TotemWeather: WeatherTaskController warn: getWeatherTask is null, stop weather task thread
+10-27 23:41:54.330 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:54.361 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:54.362 918-918/? D/WifiService: onReceive, action:android.intent.action.USER_PRESENT
+10-27 23:41:54.365 1355-1355/? D/PhoneStatusBar: setSystemUiVisibility vis=c0000700 mask=ffffffff oldVal=4080070a newVal=c0000700 diff=8080000a navbar_vis=0
+10-27 23:41:54.365 1355-1355/? D/PhoneStatusBar: sbMode=-1, nbMode=2mStatusBarMode=2, mNavigationBarMode=0
+10-27 23:41:54.365 1355-1355/? D/BarTransitions.PhoneStatusBarView: MODE_TRANSLUCENT -> MODE_TRANSLUCENT animate=false
+10-27 23:41:54.365 1355-1355/? D/BarTransitions.NavigationBarView: MODE_OPAQUE -> MODE_TRANSLUCENT animate=false
+10-27 23:41:54.365 1355-1355/? D/BarTransitions.NavigationBarView: applyModeBackground MODE_TRANSLUCENT animate=false,mGradientBackground=true
+10-27 23:41:54.365 1355-1355/? D/BarTransitions.NavigationBarView: Hide color layer
+10-27 23:41:54.365 1355-1355/? D/TintManager: updateBarTint
+10-27 23:41:54.367 10146-10146/? I/appproc: CLASSPATH=/system/framework/pm.jar
+10-27 23:41:54.367 10146-10146/? I/appproc: Command=app_process /system/bin com.android.commands.pm.Pm install-write -S 1486102 763883996 0_app-debug -
+10-27 23:41:54.367 10146-10146/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-27 23:41:54.371 10146-10146/? D/AndroidRuntime: CheckJNI is OFF
+10-27 23:41:54.371 10146-10146/? I/AndroidRuntime: readDownloadBoosterConfig: 'false'
+10-27 23:41:54.404 10146-10146/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+10-27 23:41:54.426 10146-10146/? I/HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+10-27 23:41:54.436 10146-10146/? I/Radio-JNI: register_android_hardware_Radio DONE
+10-27 23:41:54.441 10146-10146/? V/HwFrameworkFactory: : successes to get AllImpl object and return....
+10-27 23:41:54.445 10146-10146/? I/android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+10-27 23:41:54.445 10146-10146/? I/android_hardware_fm.cpp: ========64bit long size = 8
+10-27 23:41:54.445 10146-10146/? I/android_hardware_fm.cpp: FM: get chip type = hisi
+10-27 23:41:54.446 10146-10146/? I/INI_SO: [ini_module_init:1008]ini module init func
+10-27 23:41:54.446 10146-10146/? I/fm_hisi: FM::[fm_device_open:2784] fm_device_open
+10-27 23:41:54.446 10146-10146/? I/fm_hisi: FM::[fm_device_open:2796] find the id:fm and begins to open the device
+10-27 23:41:54.446 10146-10146/? I/fm_hisi: FM::[fm_device_open:2840] device open sucess
+10-27 23:41:54.446 10146-10146/? I/android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+10-27 23:41:54.463 10146-10146/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+10-27 23:41:54.518 456-456/? I/installd: free_cache(1486102) avail 4328005632
+10-27 23:41:54.638 918-928/? I/art: GC statistics: 1 time(s), freed 44309(3MB) objects, paused 2.485ms total 31.967ms
+10-27 23:41:54.638 918-928/? I/art: Background partial concurrent mark sweep GC freed 43288(2MB) AllocSpace objects, 45(836KB) LOS objects, 9% free, 38MB/42MB, paused 1.898ms total 160.284ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+10-27 23:41:54.684 10146-10146/? I/art: System.exit called, status: 0
+10-27 23:41:54.684 10146-10146/? I/AndroidRuntime: VM exiting with result code 0.
+10-27 23:41:54.954 8426-8426/? D/UsbConnectedService: handleMessage, msg.what = 2
+10-27 23:41:54.962 918-2000/? I/HwActivityManagerService: PackageName for pid 8426 is com.android.settings
+10-27 23:41:54.964 918-940/? I/HwActivityManagerService: PackageName for pid 8426 is com.android.settings
+10-27 23:41:54.965 918-2061/? I/HwActivityManagerService: PackageName for pid 8426 is com.android.settings
+10-27 23:41:54.966 918-1811/? I/HwActivityManagerService: PackageName for pid 8426 is com.android.settings
+10-27 23:41:55.102 8426-8426/? D/UsbConnectedService: updateButtons, function = mtp
+10-27 23:41:55.103 918-1510/? I/HwActivityManagerService: PackageName for pid 8426 is com.android.settings
+10-27 23:41:55.128 10163-10163/? I/appproc: CLASSPATH=/system/framework/pm.jar
+10-27 23:41:55.128 10163-10163/? I/appproc: Command=app_process /system/bin com.android.commands.pm.Pm install-commit 763883996
+10-27 23:41:55.128 10163-10163/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-27 23:41:55.130 918-918/? W/NotificationService: NOSOUND: no valid sound
+10-27 23:41:55.132 10163-10163/? D/AndroidRuntime: CheckJNI is OFF
+10-27 23:41:55.133 10163-10163/? I/AndroidRuntime: readDownloadBoosterConfig: 'false'
+10-27 23:41:55.133 1355-14313/? D/StatusBar: onNotificationPosted: StatusBarNotification(pkg=com.android.settings user=UserHandle{0} id=1000001 tag=null score=10 key=0|com.android.settings|1000001|null|1000: Notification(pri=1 contentView=com.android.settings/0x1090084 vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)), when=Sun Oct 27 23:28:56 GMT+08:00 2019
+10-27 23:41:55.162 1355-1467/? D/HwNotificationHelper: process: notification=StatusBarNotification(pkg=com.android.settings user=UserHandle{0} id=1000001 tag=null score=10 key=0|com.android.settings|1000001|null|1000: Notification(pri=1 contentView=com.android.settings/0x1090084 vibrate=null sound=null tick defaults=0x0 flags=0x2 color=0x00000000 vis=PRIVATE)), when=Sun Oct 27 23:28:56 GMT+08:00 2019
+10-27 23:41:55.164 1355-1467/? D/NotificationIconHelper: isCloneProcess, pid = 8426
+10-27 23:41:55.165 10163-10163/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+10-27 23:41:55.166 1355-1355/? D/StatusBar: onNotificationPosted  sbn_name = com.android.settings sbn_key = 0|com.android.settings|1000001|null|1000 ,sbn_id = 1000001, headsUp.getKey()null
+10-27 23:41:55.166 1355-1355/? D/TetheringUtil: isTheringNotificationFromFrameworks
+10-27 23:41:55.166 1355-1355/? D/TetheringUtil: isTheringNotificationFromFrameworks iconId:17303137 17303171 33751650 com.android.settings
+10-27 23:41:55.166 1355-1355/? D/TetheringUtil: isTheringNotificationFromFrameworks result:false
+10-27 23:41:55.166 1355-1355/? D/TetheringUtil: isOtherWifiApNotificationFromFrameworks
+10-27 23:41:55.166 1355-1355/? D/TetheringUtil: isOtherWifiApNotificationFromFrameworks iconId:17303137 17303169 33751645 com.android.settings
+10-27 23:41:55.166 1355-1355/? D/TetheringUtil: isOtherWifiApNotificationFromFrameworks  result:false
+10-27 23:41:55.168 1355-1355/? D/NotificationIconHelper: isCloneProcess, pid = 8426
+10-27 23:41:55.186 10163-10163/? I/HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+10-27 23:41:55.196 10163-10163/? I/Radio-JNI: register_android_hardware_Radio DONE
+10-27 23:41:55.202 10163-10163/? V/HwFrameworkFactory: : successes to get AllImpl object and return....
+10-27 23:41:55.205 10163-10163/? I/android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+10-27 23:41:55.205 10163-10163/? I/android_hardware_fm.cpp: ========64bit long size = 8
+10-27 23:41:55.205 10163-10163/? I/android_hardware_fm.cpp: FM: get chip type = hisi
+10-27 23:41:55.206 10163-10163/? I/INI_SO: [ini_module_init:1008]ini module init func
+10-27 23:41:55.206 10163-10163/? I/fm_hisi: FM::[fm_device_open:2784] fm_device_open
+10-27 23:41:55.206 10163-10163/? I/fm_hisi: FM::[fm_device_open:2796] find the id:fm and begins to open the device
+10-27 23:41:55.206 10163-10163/? I/fm_hisi: FM::[fm_device_open:2840] device open sucess
+10-27 23:41:55.207 10163-10163/? I/android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon:2131035558
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon resultfalse
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon:33751058
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon resultfalse
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon:2130837567
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon resultfalse
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon:2130837580
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon resultfalse
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon:2130837639
+10-27 23:41:55.213 1355-1355/? D/TetheringUtil: isTheringWifiIcon resultfalse
+10-27 23:41:55.224 10163-10163/? D/AndroidRuntime: Calling main entry com.android.commands.pm.Pm
+10-27 23:41:55.235 1355-1355/? W/View: requestLayout() improperly called by com.android.systemui.statusbar.phone.IconMerger{9b9d29f V.E...... ......ID 0,0-270,72 #7f1000e8 app:id/notificationIcons} during second layout pass: posting in next frame
+10-27 23:41:55.321 918-1016/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{6ad1ede 0:system/1000}, flags: 400
+10-27 23:41:55.322 918-1016/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{53985eb u0 euid: 0 com.android.defcontainer/.DefaultContainerService}, euid: 0
+10-27 23:41:55.335 2021-2034/? I/PgedBinderListener: kstate callback type:16 value1=8794 value2=CALLED
+10-27 23:41:55.453 918-918/? D/WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+10-27 23:41:55.453 918-918/? D/WifiService: ACTION_BATTERY_CHANGED pluggedType: 2
+10-27 23:41:55.457 918-1016/? W/CfgFilePolicy: No config file found for:dexopt/never_dexopt_apklist.cfg
+10-27 23:41:55.457 918-1016/? W/CfgFilePolicy: No config file found for:dexopt/dexopt_in_bootup_apklist.cfg
+10-27 23:41:55.470 918-1016/? I/PackageManager.DexOptimizer: Running dexopt (dex2oat) on: /data/app/vmdl763883996.tmp/base.apk pkg=com.lingsh.android.geoquiz3challenge isa=arm64 vmSafeMode=false debuggable=true oatDir = /data/app/vmdl763883996.tmp/oat
+10-27 23:41:55.472 918-918/? D/HwGpsPowerTracker: ACTION_BATTERY_CHANGED pluggedType: 2
+10-27 23:41:55.472 1355-1355/? D/PowerUI: level:86-->86 status:2-->2 plugType:2-->2 invalidCharger:0-->0 bucket:1-->1 plugged:true-->true
+10-27 23:41:55.473 2049-4057/? D/HwPowerMonitor.Utils: ScrOff setChargingState mIsCharging = true
+10-27 23:41:55.473 2049-4057/? I/HwPowerMonitor.PowerExceptionObservable: unhandled onEvent actionID: 3002
+10-27 23:41:55.473 2049-4057/? W/HwPowerMonitor.DayActObserver: mModemLogStatsTimes = 0, ModemLogState = 0
+10-27 23:41:55.473 2049-4057/? W/HwPowerMonitor.DayActObserver: BAT_CHANGED, mIsScrnOffBatStatsEnabled = true, mIsCharging = true, mIsScrnOfBatDropMonitorStart = false
+10-27 23:41:55.560 10173-10173/? I/dex2oat: /system/bin/dex2oat --debuggable
+10-27 23:41:55.713 10173-10175/? W/dex2oat: Before Android 4.1, method int androidx.appcompat.widget.DropDownListView.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+10-27 23:41:55.734 10173-10173/? W/dex2oat: Before Android 4.1, method int androidx.appcompat.widget.MenuPopupWindow$MenuDropDownListView.lookForSelectablePosition(int, boolean) would have incorrectly overridden the package-private method in android.widget.ListView
+10-27 23:41:55.740 10173-10176/? W/dex2oat: Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+10-27 23:41:56.140 1771-1786/? D/DeviceInfo: ramSize =2097152
+10-27 23:41:56.481 465-465/? E/Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 29
+10-27 23:41:56.482 465-465/? E/Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+10-27 23:41:56.482 465-465/? E/Thermal-daemon: [pa_0] temp_new :31  temp_old :30
+10-27 23:41:56.482 465-465/? E/Thermal-daemon: Report temperature: [pa_0] temp :31  report_threshold:1
+10-27 23:41:56.483 465-465/? E/Thermal-daemon: [ap] temp_new :31  temp_old :30
+10-27 23:41:56.483 465-465/? E/Thermal-daemon: Report temperature: [ap] temp :31  report_threshold:1
+10-27 23:41:56.484 2021-2531/? D/ThermalStateManager: Thermal type: 1 cur_temperature:31
+10-27 23:41:56.486 2021-2531/? D/ThermalStateManager: Thermal type: 0 cur_temperature:31
+10-27 23:41:56.951 10173-10173/? I/dex2oat: dex2oat took 1.391s (threads: 4)
+10-27 23:41:56.983 918-978/? I/ActivityManager: Force stopping com.lingsh.android.geoquiz3challenge appid=10118 user=-1: uninstall pkg
+10-27 23:41:56.984 918-978/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId -1
+10-27 23:41:56.984 918-978/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId -1
+10-27 23:41:56.984 918-978/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId -1
+10-27 23:41:56.984 918-978/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId -1
+10-27 23:41:57.132 918-1016/? I/PackageManager: Package com.lingsh.android.geoquiz3challenge codePath changed from /data/app/com.lingsh.android.geoquiz3challenge-1 to /data/app/com.lingsh.android.geoquiz3challenge-2; Retaining data and using new
+10-27 23:41:57.133 918-1016/? W/PackageManager: Code path for com.lingsh.android.geoquiz3challenge changing from /data/app/com.lingsh.android.geoquiz3challenge-1 to /data/app/com.lingsh.android.geoquiz3challenge-2
+10-27 23:41:57.133 918-1016/? W/PackageManager: Resource path for com.lingsh.android.geoquiz3challenge changing from /data/app/com.lingsh.android.geoquiz3challenge-1 to /data/app/com.lingsh.android.geoquiz3challenge-2
+10-27 23:41:57.133 918-978/? I/ActivityManager: Force stopping com.lingsh.android.geoquiz3challenge appid=10118 user=-1: replace pkg
+10-27 23:41:57.133 918-978/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId -1
+10-27 23:41:57.133 918-978/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId -1
+10-27 23:41:57.133 918-978/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId -1
+10-27 23:41:57.133 918-978/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId -1
+10-27 23:41:57.332 918-1016/? I/HwPackageManagerService: AntiMalware is closed
+10-27 23:41:57.332 918-1016/? W/Settings: Setting install_non_market_apps has moved from android.provider.Settings.Global to android.provider.Settings.Secure, returning read-only value.
+10-27 23:41:57.333 918-1016/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:872 com.android.server.pm.HwPackageManagerService.parseInstalledPkgInfo:2300 com.android.server.pm.PackageManagerService.parseInstalledPkgInfo:18471 com.android.server.pm.PackageManagerService.access$1400:342 com.android.server.pm.PackageManagerService$PackageHandler.doHandleMessage:1537
+10-27 23:41:57.333 918-1016/? I/SendBroadcastPermission: action:com.huawei.android.action.GET_PACKAGE_INSTALLATION_INFO, mPermissionType:0
+10-27 23:41:57.333 918-1016/? V/HwPackageManagerService: POST_INSTALL:  pkgName = com.lingsh.android.geoquiz3challenge, pkgUri = /data/app/vmdl763883996.tmp, pkgVerName = 1.0, pkgVerCode = 1, resultCode = 1, pkgUpdate = true
+10-27 23:41:57.333 918-1016/? I/art: Starting a blocking GC Explicit
+10-27 23:41:57.338 1771-1771/? I/HwSystemManager: HandleInstalledPackageInfoService:onReceive  action is com.huawei.android.action.GET_PACKAGE_INSTALLATION_INFO
+10-27 23:41:57.338 1771-1771/? E/HwSystemManager: HandleInstalledPackageInfoService:second action: pkgData is null
+10-27 23:41:57.453 918-1016/? I/art: GC statistics: 1 time(s), freed 48337(3MB) objects, paused 2.206ms total 47.207ms
+10-27 23:41:57.453 918-1016/? I/art: Explicit concurrent mark sweep GC freed 79469(3MB) AllocSpace objects, 8(160KB) LOS objects, 9% free, 37MB/41MB, paused 1.911ms total 119.416ms at PackageManager thread CareAboutPauseTimes 1
+10-27 23:41:57.453 918-1016/? W/RMS.SmartShrinker: SmartShrinker is runing in pid =918 reclaim mode = 3
+10-27 23:41:57.474 918-1016/? W/PackageManager: Couldn't remove dex file for package:  at location /data/app/com.lingsh.android.geoquiz3challenge-1/base.apk, retcode=-1
+10-27 23:41:57.475 456-456/? E/installd: Couldn't opendir /data/app/vmdl763883996.tmp: No such file or directory
+10-27 23:41:57.476 918-1016/? I/ActivityManager: Force stopping com.lingsh.android.geoquiz3challenge appid=10118 user=0: pkg removed
+10-27 23:41:57.477 918-1016/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+10-27 23:41:57.477 918-1016/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+10-27 23:41:57.477 918-1016/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+10-27 23:41:57.477 918-1016/? D/HwBroadcastQueue: cleanupDisabledPackageReceiversLocked for userId 0
+10-27 23:41:57.480 918-1016/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }, receivers: [ResolveInfo{53ad4de com.huawei.appmarket/.service.installresult.control.InstallerReceiver p=2147483647 m=0x208000 euid=0}, ResolveInfo{89c76bf com.android.contacts/.compatibility.ContactsProviderReceiver p=1000 m=0x208000 euid=0}, ResolveInfo{d86f18c com.android.providers.contacts/.PackageIntentReceiver m=0x208000 euid=0}, ResolveInfo{e55b0d5 com.android.gallery3d/com.huawei.gallery.photoshare.receiver.GalleryPackageMonitor m=0x208000 euid=0}, ResolveInfo{1b60ea com.android.vending/com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver m=0x208000 euid=0}, ResolveInfo{22bbfdb com.huawei.motionservice/.motionexception.MotionBootReceiver m=0x208000 euid=0}, ResolveInfo{f779a78 com.huawei.systemmanager/com.huawei.notificationmanager.receiver.Receiver m=0x208000 euid=0}, ResolveInfo{7cd8551 com.huawei.systemmanager/com.huawei.permissionmanager.ui.AppInstallationReceiver m=0x208000 euid=0}, ResolveInfo{ec6a1b6 com.huawei.systemmanager/.optimize.OptimizeReceiver m=0x208000 euid=0}, ResolveInfo{89c7eb7 com.huawei.systemmanager/com.huawei.permissionmanager.ui.ComBroadcastReceiver m=0x208000 euid=0}, ResolveInfo{1c7e624 com.huawei.systemmanager/.power.receiver.BootBroadcastReceiver m=0x208000 euid=0}, ResolveInfo{e14258d com.huawei.systemmanager/.netassistant.netapp.receiver.AppChangeReceiver m=0x208000 euid=0}, ResolveInfo{a132342 com.huawei.systemmanager/.antivirus.AntiVirusReceiver m=0x208000 euid=0}, ResolveInfo{5f04f53 com.huawei.systemmanager/.addviewmonitor.AppChangeReceiver m=0x208000 euid=0}, ResolveInfo{caf4090 com.huawei.systemmanager/.spacecleanner.receiver.SpaceCleanReceiver m=0x208000 euid=0}, ResolveInfo{baa8d89 com.android.settings/.applications.BlackListReceiver m=0x208000 euid=0}, ResolveInfo{fb4318e com.huawei.android.remotecontrol/com.huawei.android.pushagent.PushEventReceiver m=0x208000 euid=0}, ResolveInfo{8a68daf com.huawei.android.pushagent/.PushEventReceiver m=0x208000 euid=0}, ResolveInfo{26fd5bc com.huawei.securitymgr/.AppUninstallReceiver m=0x208000 euid=0}, ResolveInfo{8257945 com.huawei.bd/.collector.BDReceiver m=0x208000 euid=0}, ResolveInfo{345d89a com.android.keychain/.KeyChainBroadcastReceiver m=0x208000 euid=0}, ResolveInfo{dd855cb com.huawei.hwvplayer.youku/com.taobao.accs.EventReceiver m=0x208000 euid=0}, ResolveInfo{54291a8 com.huawei.hwvplayer.youku/com.taobao.agoo.AgooCommondReceiver m=0x208000 euid=0}, ResolveInfo{5a964c1 com.huawei.hwvplayer.youku/cn.com.iresearch.phonemonitor.library.receiver.WakeUpReceiver m=0x208000 euid=0}, ResolveInfo{418e466 com.huawei.hwvplayer.youku/cn.com.iresearch.phonemonitor.library.receiver.ApplicationStatusReceiver m=0x208000 euid=0}]
+10-27 23:41:57.483 918-1016/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }, receivers: [ResolveInfo{32054 com.huawei.appmarket/.service.installresult.control.InstallerReceiver p=2147483647 m=0x208000 euid=0}, ResolveInfo{a268bfd com.android.contacts/.compatibility.ContactsProviderReceiver p=1000 m=0x208000 euid=0}, ResolveInfo{3bee0f2 com.android.providers.contacts/.PackageIntentReceiver m=0x208000 euid=0}, ResolveInfo{dfbb343 com.google.android.partnersetup/.RlzPingBroadcastReceiver m=0x208000 euid=0}, ResolveInfo{d9bedc0 com.google.android.partnersetup/.AppInstalledReceiver m=0x208000 euid=0}, ResolveInfo{54eaf9 com.android.gallery3d/com.huawei.gallery.photoshare.receiver.GalleryPackageMonitor m=0x208000 euid=0}, ResolveInfo{9561a3e com.android.vending/com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver m=0x208000 euid=0}, ResolveInfo{f9c409f com.svox.pico/.VoiceDataInstallerReceiver m=0x208000 euid=0}, ResolveInfo{b3225ec com.huawei.systemmanager/com.huawei.notificationmanager.receiver.Receiver m=0x208000 euid=0}, ResolveInfo{c703db5 com.huawei.systemmanager/com.huawei.permissionmanager.ui.AppInstallationReceiver m=0x208000 euid=0}, ResolveInfo{d959c4a com.huawei.systemmanager/.optimize.OptimizeReceiver m=0x208000 euid=0}, ResolveInfo{98e47bb com.huawei.systemmanager/.power.receiver.BootBroadcastReceiver m=0x208000 euid=0}, ResolveInfo{111b4d8 com.huawei.systemmanager/.netassistant.netapp.receiver.AppChangeReceiver m=0x208000 euid=0}, ResolveInfo{b40031 com.huawei.systemmanager/.antivirus.AntiVirusReceiver m=0x208000 euid=0}, ResolveInfo{b993316 com.huawei.systemmanager/.addviewmonitor.AppChangeReceiver m=0x208000 euid=0}, ResolveInfo{6cfa497 com.huawei.systemmanager/.rainbow.client.background.broadcast.SecurityBroadcastReceiver m=0x208000 euid=0}, ResolveInfo{e594684 com.huawei.systemmanager/.spacecleanner.receiver.SpaceCleanReceiver m=0x208000 euid=0}, ResolveInfo{d976e6d com.android.phone/.vvm.omtp.VvmPackageInstallReceiver m=0x208000 euid=0}, ResolveInfo{26d6aa2 com.android.settings/.applications.BlackListReceiver m=0x208000 euid=0}, ResolveInfo{a5ff333 com.huawei.android.remotecontrol/com.huawei.android.pushagent.PushEventReceiver m=0x208000 euid=0}, ResolveInfo{36646f0 com.huawei.android.pushagent/.PushEventReceiver m=0x208000 euid=0}, ResolveInfo{9c98469 com.huawei.securitymgr/.AppUninstallReceiver m=0x208000 euid=0}, ResolveInfo{35b8eee com.huawei.bd/.collector.BDReceiver m=0x208000 euid=0}, ResolveInfo{d9c8f8f com.huawei.hwvplayer.youku/cn.com.iresearch.phonemonitor.library.receiver.WakeUpReceiver m=0x208000 euid=0}, ResolveInfo{700e21c com.huawei.hwvplayer.youku/cn.com.iresearch.phonemonitor.library.receiver.ApplicationStatusReceiver m=0x208000 euid=0}]
+10-27 23:41:57.485 918-1016/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }, receivers: [ResolveInfo{8f5abfa com.huawei.appmarket/.service.installresult.control.InstallerReceiver p=2147483647 m=0x208000 euid=0}, ResolveInfo{85c95ab com.android.contacts/.compatibility.ContactsProviderReceiver p=1000 m=0x208000 euid=0}, ResolveInfo{2480408 com.android.providers.contacts/.PackageIntentReceiver m=0x208000 euid=0}, ResolveInfo{1457a1 com.huawei.systemmanager/.antivirus.AntiVirusReceiver m=0x208000 euid=0}, ResolveInfo{2e28dc6 com.android.settings/.applications.BlackListReceiver m=0x208000 euid=0}, ResolveInfo{ecce187 com.huawei.bd/.collector.BDReceiver m=0x208000 euid=0}, ResolveInfo{f5d58b4 com.huawei.hwvplayer.youku/cn.com.iresearch.phonemonitor.library.receiver.WakeUpReceiver m=0x208000 euid=0}, ResolveInfo{afdccdd com.huawei.hwvplayer.youku/cn.com.iresearch.phonemonitor.library.receiver.ApplicationStatusReceiver m=0x208000 euid=0}]
+10-27 23:41:57.485 10163-10163/? I/art: System.exit called, status: 0
+10-27 23:41:57.485 10163-10163/? I/AndroidRuntime: VM exiting with result code 0.
+10-27 23:41:57.485 918-1016/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=android.intent.action.MY_PACKAGE_REPLACED flg=0x4000010 pkg=com.lingsh.android.geoquiz3challenge (has extras) }, receivers: null
+10-27 23:41:57.488 1355-1355/? I/IntelligentScene: mPackageReceiver, action= android.intent.action.PACKAGE_REMOVED
+10-27 23:41:57.488 1355-1355/? I/IntelligentScene: packageName = com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.490 2090-2090/? I/HwLauncher: SimpleLauncherModeaction= android.intent.action.PACKAGE_REMOVEDpackageName = com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.490 2090-2090/? I/HwLauncher: LauncherDownloadModel onReceive intent=Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }
+10-27 23:41:57.491 918-1232/? V/NetworkPolicy: ACTION_PACKAGE_ADDED for uid=10118
+10-27 23:41:57.496 918-2063/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{b0fe7ac 1355:com.android.systemui/u0a29}, flags: 400
+10-27 23:41:57.496 918-918/? I/SmartHeartBeat: listenAppUpdate, package: com.lingsh.android.geoquiz3challenge has been Updated
+10-27 23:41:57.496 918-2063/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{10c0f23 u0 euid: 0 com.android.systemui/.statusbar.toolbox.ToolBoxService}, euid: 0
+10-27 23:41:57.496 918-918/? E/HwBastetService: name: com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.496 918-918/? E/HwBastetService: len: 1, name: com.lingsh.android.geoquiz3challenge, uid: 10118
+10-27 23:41:57.496 918-918/? D/HwBastetService: BroadcastReceiver android.intent.action.PACKAGE_REMOVED
+10-27 23:41:57.497 918-918/? D/JobSchedulerService: Receieved: android.intent.action.PACKAGE_REMOVED
+10-27 23:41:57.497 918-918/? D/NetdConnector: SND -> {1757 network permission user clear 10118}
+10-27 23:41:57.497 2090-2090/? I/HwLauncher: SimpleLauncherModeaction= android.intent.action.PACKAGE_ADDEDpackageName = com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.497 2090-2090/? I/HwLauncher: LauncherDownloadModel onReceive intent=Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }
+10-27 23:41:57.499 2090-2191/? I/HwLauncher: SimpleLauncherModemAllAppsList.updatePackage com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.500 6465-6465/? I/PushLog2714: [main-1]action is android.intent.action.PACKAGE_REMOVED(android/null:-1)
+10-27 23:41:57.501 2090-2191/? I/HwLauncher: SimpleAllAppsList  updatePackage : package[com.lingsh.android.geoquiz3challenge] matched activity's size is 1 and data List size is 0
+10-27 23:41:57.501 1355-1355/? I/IntelligentScene: mPackageReceiver, action= android.intent.action.PACKAGE_ADDED
+10-27 23:41:57.501 1355-1355/? I/IntelligentScene: packageName = com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.501 2090-2191/? D/HwLauncher: Launcher.LauncherProvider  launcher-restore query - uri:content://com.huawei.android.launcher.settings/favorites_simpleui?notify=false
+10-27 23:41:57.502 1355-1355/? I/IntelligentScene: mPackageReceiver, action= android.intent.action.PACKAGE_REPLACED
+10-27 23:41:57.502 1355-1355/? I/IntelligentScene: packageName = com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.507 1355-10182/? I/EyeComfortModeTracker: isPhoneEyesSupporttrue
+10-27 23:41:57.507 1771-1771/? I/HwSystemManager: HsmPackageManager:Receive intent:Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }
+10-27 23:41:57.508 1771-1771/? I/HwSystemManager: HsmPackageManager:replacing:true
+10-27 23:41:57.508 1355-10182/? I/EyeComfortModeTracker: isPhoneEyesSupporttrue
+10-27 23:41:57.508 1771-1771/? I/HwSystemManager: HsmPackageManager:Receive intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }
+10-27 23:41:57.508 1771-1771/? I/HwSystemManager: HsmPackageManager:replacing:true
+10-27 23:41:57.508 1771-1771/? I/HwSystemManager: HsmPackageManager:pkgName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.514 918-1230/? D/NetdConnector: RCV <- {200 1757 success}
+10-27 23:41:57.514 918-1230/? D/NetdConnector: RCV <- {200 1757 success}
+10-27 23:41:57.516 1771-1771/? I/HwSystemManager: HsmPackageManager:doAppInstalled, installed: com.lingsh.android.geoquiz3challenge, prePkgExist:true, replacing:true
+10-27 23:41:57.523 6409-6409/? I/HwSystemManager: HsmPackageManager:Receive intent:Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }
+10-27 23:41:57.523 6409-6409/? I/HwSystemManager: HsmPackageManager:replacing:true
+10-27 23:41:57.523 6409-6409/? I/HwSystemManager: HsmPackageManager:Receive intent:Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }
+10-27 23:41:57.523 6409-6409/? I/HwSystemManager: HsmPackageManager:replacing:true
+10-27 23:41:57.523 6409-6409/? I/HwSystemManager: HsmPackageManager:pkgName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.526 918-1207/? D/HwBatteryService: onUEvent fcp_values = 0
+10-27 23:41:57.547 2090-2191/? I/HwLauncher: Launcher.LauncherProvider  queried count: 0
+10-27 23:41:57.553 2325-2386/? I/ContactsPerf: AccountTypeManager.loadAccountsInBackground start
+10-27 23:41:57.564 2090-2191/? I/HwLauncher: SimpleAllAppsList  findAndUpdateInfoInDB : found 0 shortcutInfo for package[com.lingsh.android.geoquiz3challenge] in db
+10-27 23:41:57.564 2090-2191/? I/HwLauncher: SimpleAllAppsList  updatePackage do not add new SimpleApplicationInfo,It's in normal now. package = com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.564 2090-2191/? W/HwLauncher: SimpleLauncherModeNobody to tell about the new app.  Launcher is probably loading.
+10-27 23:41:57.564 1771-1771/? I/HwSystemManager: HsmPackageManager:Receive intent:Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }
+10-27 23:41:57.564 1771-1771/? I/HwSystemManager: HsmPackageManager:replacing:true
+10-27 23:41:57.564 1771-1771/? I/HwSystemManager: HsmPackageManager:pkgName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.565 2090-2099/? I/art: GC statistics: 5 time(s), freed 22558(17MB) objects, paused 3.914ms total 131.523ms
+10-27 23:41:57.565 2090-2099/? I/art: Background partial concurrent mark sweep GC freed 2659(185KB) AllocSpace objects, 5(1340KB) LOS objects, 12% free, 27MB/31MB, paused 15.344ms total 74.257ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+10-27 23:41:57.565 1771-1771/? I/HwSystemManager: HsmPackageManager:doAppChanged, put com.lingsh.android.geoquiz3challenge, path:/data/app/com.lingsh.android.geoquiz3challenge-2
+10-27 23:41:57.571 6409-6409/? I/HwSystemManager: HsmPackageManager:doAppInstalled, installed: com.lingsh.android.geoquiz3challenge, prePkgExist:true, replacing:true
+10-27 23:41:57.572 6409-6409/? I/HwSystemManager: HsmPackageManager:Receive intent:Intent { act=android.intent.action.PACKAGE_REPLACED dat=package:com.lingsh.android.geoquiz3challenge flg=0x4000010 (has extras) }
+10-27 23:41:57.572 6409-6409/? I/HwSystemManager: HsmPackageManager:replacing:true
+10-27 23:41:57.572 6409-6409/? I/HwSystemManager: HsmPackageManager:pkgName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.573 6409-6409/? I/HwSystemManager: HsmPackageManager:doAppChanged, put com.lingsh.android.geoquiz3challenge, path:/data/app/com.lingsh.android.geoquiz3challenge-2
+10-27 23:41:57.588 2036-2036/? D/CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_REMOVED
+10-27 23:41:57.591 918-1009/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.594 918-1221/? I/InputReader: Reconfiguring input devices.  changes=0x00000010
+10-27 23:41:57.596 918-1221/? I/InputReader: Reconfiguring input devices.  changes=0x00000010
+10-27 23:41:57.597 918-1221/? I/InputReader: Reconfiguring input devices.  changes=0x00000010
+10-27 23:41:57.608 8521-8584/? I/HiApp.PackageService: main{1} BaseAppDataManage apkChangedReceiver, action = android.intent.action.PACKAGE_REMOVED,packageName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.613 1771-2377/? W/HwSystemManager: StartupConfData:getStartupAllowCfgCloud for com.lingsh.android.geoquiz3challenge, isRec true return default
+10-27 23:41:57.622 6465-6465/? I/PushLog2714: [main-1]action is android.intent.action.PACKAGE_ADDED(android/null:-1)
+10-27 23:41:57.639 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.646 918-977/? W/InputMethodManagerService: buildInputMethodListLocked: Skipping IME com.huawei.secime
+10-27 23:41:57.646 2036-2036/? D/CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_ADDED
+10-27 23:41:57.647 2036-2036/? D/CarrierServiceBindHelper: Receive action: android.intent.action.PACKAGE_REPLACED
+10-27 23:41:57.647 2036-2036/? D/CarrierServiceBindHelper: mHandler: 3
+10-27 23:41:57.648 2036-2036/? D/CarrierServiceBindHelper: mHandler: 3
+10-27 23:41:57.648 2036-2036/? D/CarrierServiceBindHelper: mHandler: 3
+10-27 23:41:57.648 2036-2036/? D/CarrierConfigLoader: mHandler: 9 phoneId: 0
+10-27 23:41:57.655 2325-2386/? W/AccountTypeManager: No authenticator found for type=com.google, ignoring it.
+10-27 23:41:57.664 9169-9182/? I/art: GC statistics: 8 time(s), freed 136234(21MB) objects, paused 8.746ms total 213.945ms
+10-27 23:41:57.664 9169-9182/? I/art: Background partial concurrent mark sweep GC freed 25117(2MB) AllocSpace objects, 43(860KB) LOS objects, 17% free, 18MB/22MB, paused 688us total 168.123ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+10-27 23:41:57.666 8521-8584/? I/HiApp.BaseAppDataManage: main{1} replace app,receive REMVED Broadcast.do nothing
+10-27 23:41:57.667 8521-8584/? I/HiApp.PackageService: main{1} BaseAppDataManage apkChangedReceiver, action = android.intent.action.PACKAGE_ADDED,packageName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.684 1771-1781/? I/art: Background partial concurrent mark sweep GC freed 15709(1575KB) AllocSpace objects, 32(1036KB) LOS objects, 18% free, 17MB/21MB, paused 13.450ms total 185.775ms at HeapTaskDaemon thread CareAboutPauseTimes 1
+10-27 23:41:57.699 8521-8594/? I/SendBroadcastPermission: action:com.huawei.appmarket.service.downloadservice.Receiver, mPermissionType:0
+10-27 23:41:57.699 918-2063/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10 pkg=com.huawei.appmarket }, receivers: null
+10-27 23:41:57.710 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.714 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.721 2325-2386/? D/HwCust: Create obj success use class com.android.contacts.model.account.HwCustExchangeAccountTypeImpl
+10-27 23:41:57.741 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.746 918-977/? W/InputMethodManagerService: Skipping input method ComponentInfo{com.UCMobile/com.pp.assistant.cockroach.service.CockroachService}: it does not require the permission android.permission.BIND_INPUT_METHOD
+10-27 23:41:57.746 918-977/? I/HwInputMethodManagerService: isSecureIMEExist = true
+10-27 23:41:57.747 8521-8584/? I/HiApp.PackageService: main{1} InstallerReceiver InstallerReceiver onReceive action: android.intent.action.PACKAGE_REMOVED,packageName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.750 918-2061/? I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+10-27 23:41:57.755 2325-2386/? I/ContactsPerf: AccountTypeManager.loadAccountsInBackground start
+10-27 23:41:57.757 2325-2386/? W/AccountTypeManager: No authenticator found for type=com.google, ignoring it.
+10-27 23:41:57.759 2325-2386/? D/HwCust: Create obj success use class com.android.contacts.model.account.HwCustExchangeAccountTypeImpl
+10-27 23:41:57.760 918-1811/? I/AccountManagerService: getTypesVisibleToCaller: isPermitted? true
+10-27 23:41:57.765 918-977/? W/InputMethodManagerService: buildInputMethodListLocked: Skipping IME com.baidu.input_huawei
+10-27 23:41:57.779 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.779 918-977/? W/InputMethodManagerService: buildInputMethodListLocked: Skipping IME com.android.inputmethod.latin
+10-27 23:41:57.780 918-977/? W/InputMethodManagerService: Skipping input method ComponentInfo{com.UCMobile/com.pp.assistant.cockroach.service.CockroachService}: it does not require the permission android.permission.BIND_INPUT_METHOD
+10-27 23:41:57.780 918-977/? W/InputMethodManagerService: Default IME is uninstalled. Choose new default IME.
+10-27 23:41:57.783 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.787 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.790 1771-2377/? W/HwSystemManager: StartupConsistencyChecker:loadAndUpdateExistPackageData not valid startupInfo of com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.813 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.816 918-940/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{997ce66 8850:com.android.gallery3d/u0a17}, flags: 400
+10-27 23:41:57.817 918-940/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{75ffd50 u0 euid: 0 com.android.gallery3d/com.huawei.gallery.photoshare.receiver.PackageAddedReceiver$AsyncService}, euid: 0
+10-27 23:41:57.817 8521-8584/? I/HiApp.ProtocolComponent: main{1} getProtocolInfo
+10-27 23:41:57.840 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.876 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.885 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.957 8521-8584/? E/HiApp.InstalledAppDataMgr: main{1} <<< ERROR >>> removeInstalledApp, installedAppList == null
+10-27 23:41:57.958 10185-10185/? I/appproc: CLASSPATH=/system/framework/am.jar
+10-27 23:41:57.958 10185-10185/? I/appproc: Command=app_process /system/bin com.android.commands.am.Am start -n com.lingsh.android.geoquiz3challenge/com.lingsh.android.geoquiz3challenge.MainActivity -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+10-27 23:41:57.958 10185-10185/? D/AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+10-27 23:41:57.962 10185-10185/? D/AndroidRuntime: CheckJNI is OFF
+10-27 23:41:57.962 10185-10185/? I/AndroidRuntime: readDownloadBoosterConfig: 'false'
+10-27 23:41:57.979 8521-8584/? I/HiApp.UpdateManager/AppFileInfoManager: pool-6-thread-1{843} delete AppFileInfo & AppKeySets:com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.980 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:57.980 8521-8584/? I/HiApp.ApkObtainTask: pool-6-thread-1{843} Do task with cmd:OnlineDataDetect,needNotify:false,param:null
+10-27 23:41:57.983 8521-8584/? I/HiApp.APP_SYN: main{1} cdi add pkg=com.lingsh.android.geoquiz3challenge
+10-27 23:41:57.987 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.000 10185-10185/? D/ICU: No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+10-27 23:41:58.003 8521-8584/? W/HiApp.DownloadEngine/HiAppDownload: main{1} <<< WARN >>> DownloadManager.cancel failed, no such task, package=com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.020 8521-8584/? I/HiApp.AppProfileManagerImpl: main{1} APP_PROFILE_UNSUPPORT
+10-27 23:41:58.025 10185-10185/? I/HWSERVICES: hwnative_get_component_register:libdrmbitmap,JNI
+10-27 23:41:58.035 10185-10185/? I/Radio-JNI: register_android_hardware_Radio DONE
+10-27 23:41:58.041 10185-10185/? V/HwFrameworkFactory: : successes to get AllImpl object and return....
+10-27 23:41:58.041 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.045 10185-10185/? I/android_hardware_fm.cpp: register_android_hardware_fm_fmradio
+10-27 23:41:58.045 10185-10185/? I/android_hardware_fm.cpp: ========64bit long size = 8
+10-27 23:41:58.045 10185-10185/? I/android_hardware_fm.cpp: FM: get chip type = hisi
+10-27 23:41:58.046 10185-10185/? I/INI_SO: [ini_module_init:1008]ini module init func
+10-27 23:41:58.046 10185-10185/? I/fm_hisi: FM::[fm_device_open:2784] fm_device_open
+10-27 23:41:58.046 10185-10185/? I/fm_hisi: FM::[fm_device_open:2796] find the id:fm and begins to open the device
+10-27 23:41:58.046 10185-10185/? I/fm_hisi: FM::[fm_device_open:2840] device open sucess
+10-27 23:41:58.046 10185-10185/? I/android_hardware_fm.cpp: register_android_hardware_fm_fmradio, ret is 0
+10-27 23:41:58.059 8521-8521/? I/SendBroadcastPermission: action:com.huawei.appmarket.service.downloadservice.Receiver, mPermissionType:0
+10-27 23:41:58.060 918-2020/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10 (has extras) }, receivers: null
+10-27 23:41:58.061 2090-2090/? I/HwLauncher: LauncherDownloadModel onReceive intent=Intent { act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10 (has extras) }
+10-27 23:41:58.061 2090-2090/? I/HwLauncher: LauncherDownloadModel op:3
+10-27 23:41:58.063 918-1768/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{997ce66 8850:com.android.gallery3d/u0a17}, flags: 400
+10-27 23:41:58.063 10185-10185/? D/AndroidRuntime: Calling main entry com.android.commands.am.Am
+10-27 23:41:58.064 918-1768/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{f323a81 u0 euid: 0 com.android.gallery3d/com.huawei.gallery.photoshare.receiver.GalleryPackageMonitor$AsyncService}, euid: 0
+10-27 23:41:58.067 2090-2090/? I/HwLauncher: LauncherDownloadModel DownloadUpdatedTask DownloadInfo:
+      mAction=com.huawei.appmarket.service.downloadservice.Receiver mDownloadid=com.lingsh.android.geoquiz3challenge mProgress=0.0 mDownloadtitle=null mOp=3 mUser=UserHandle{0}
+10-27 23:41:58.069 918-940/? I/ActivityManager: resolve info: ResolveInfo{6fc6726 com.lingsh.android.geoquiz3challenge/.MainActivity m=0x0 euid=0}, euid: 0
+10-27 23:41:58.072 918-940/? I/ActivityManager: ActivityRecord info: ActivityInfo{e49af67 com.lingsh.android.geoquiz3challenge.MainActivity}, euid=0
+10-27 23:41:58.103 918-1944/? I/HwActivityManagerService: PackageName for pid 6352 is com.android.vending
+10-27 23:41:58.105 918-940/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.111 918-940/? I/ActivityManager: create new task record, multiLaunchId: 0, intent = Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.lingsh.android.geoquiz3challenge/.MainActivity }
+10-27 23:41:58.111 918-940/? V/HwWindowManagerService: moveTaskToTop mTaskChanged:true
+10-27 23:41:58.116 918-940/? I/ActivityManager: mService.startProcessLocked for activity: ActivityRecord{97b4114 u0 com.lingsh.android.geoquiz3challenge/.MainActivity t49}, appinfo euid: 0
+10-27 23:41:58.116 918-940/? D/ActivityManager: Clearing bad pkg: com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.116 918-940/? I/ActivityManager: new Process app=ProcessRecord{5b7db03 0:com.lingsh.android.geoquiz3challenge/u0a118}, name: com.lingsh.android.geoquiz3challenge, euid: 0
+10-27 23:41:58.129 918-940/? I/ActivityManager: Start proc 10196:com.lingsh.android.geoquiz3challenge/u0a118 for activity com.lingsh.android.geoquiz3challenge/.MainActivity
+10-27 23:41:58.132 918-940/? V/HwWindowManagerService: moveTaskToTop mTaskChanged:true
+10-27 23:41:58.136 918-940/? V/HwWindowManagerService: setFocusedApp update app ops, mTaskChanged set to:false
+10-27 23:41:58.136 918-1219/? I/HwWindowManagerService: this win:Window{d6fb3b u0 com.huawei.android.FloatTasks} hase children size:0
+10-27 23:41:58.136 10185-10185/? D/AndroidRuntime: Shutting down VM
+10-27 23:41:58.137 2090-2090/? I/SendBroadcastPermission: action:com.huawei.android.action.WIDGET_FOCUS_CHANGE, mPermissionType:0
+10-27 23:41:58.137 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.138 918-2000/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.android.action.WIDGET_FOCUS_CHANGE flg=0x10 (has extras) }, receivers: null
+10-27 23:41:58.143 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.146 918-1229/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{23fa73a 6352:com.android.vending/u0a83}, flags: 400
+10-27 23:41:58.146 918-1229/? W/ActivityManager: Unable to start service Intent { cmp=com.android.vending/com.google.android.finsky.utils.ff (has extras) } U=0: not found
+10-27 23:41:58.149 918-918/? I/SmartHeartBeat: listenAppUpdate, package: com.lingsh.android.geoquiz3challenge has been Updated
+10-27 23:41:58.153 20803-20803/? D/MotionReceiverBoot: MotionBootReceiver intent.getAction: android.intent.action.PACKAGE_REMOVED
+10-27 23:41:58.153 20803-20803/? D/MotionReceiverBoot: Check and reset pakeges name
+10-27 23:41:58.171 1771-1771/? I/HwSystemManager: NotificationManagerReceiver:onReceive action = android.intent.action.PACKAGE_REMOVED
+10-27 23:41:58.173 918-1768/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{faca16 1771:com.huawei.systemmanager:service/1000}, flags: 400
+10-27 23:41:58.173 10196-10196/? I/art: Late-enabling -Xcheck:jni
+10-27 23:41:58.174 918-1768/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{d73f998 u0 euid: 0 com.huawei.systemmanager/.util.content.HsmIntentService_bg}, euid: 0
+10-27 23:41:58.177 6409-6409/? I/HwSystemManager: AppInstallationReceiver:AppInstallationReceiver onReceive action = android.intent.action.PACKAGE_REMOVED
+10-27 23:41:58.178 918-1944/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{9bbd1dd 6409:com.huawei.systemmanager/1000}, flags: 400
+10-27 23:41:58.179 918-1944/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{3fdc5f1 u0 euid: 0 com.huawei.systemmanager/.util.content.HsmIntentService_ui}, euid: 0
+10-27 23:41:58.192 6409-7310/? I/HwSystemManager: OptimizeReceiver:OptimizeReceiver received action:android.intent.action.PACKAGE_REMOVED
+10-27 23:41:58.193 6409-6409/? I/HwSystemManager: ComBroadcastReceiver:ComBroadcastReceiver action = android.intent.action.PACKAGE_REMOVED
+10-27 23:41:58.196 6409-6409/? I/HwSystemManager: BootBroadcastReceiver:BootBroadcastReceiver action =android.intent.action.PACKAGE_REMOVED
+10-27 23:41:58.197 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.197 10196-10196/? D/ActivityThread: ActivityThread,attachApplication
+10-27 23:41:58.198 918-2020/? D/ActivityManager: ActivityManagerService,attachApplication,callingPid = 10196
+10-27 23:41:58.209 918-918/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.211 918-2020/? I/ActivityManager: launch r: ActivityRecord{97b4114 u0 com.lingsh.android.geoquiz3challenge/.MainActivity t49}, uid = 10118, r.info.applicationInfo.euid  = 0
+10-27 23:41:58.212 918-2020/? V/SMCSAMSHelper: SMCSAMSHelper.addSTPEvent: cost 0 ms end.
+10-27 23:41:58.212 918-2020/? V/SMCSAMSHelper: SMCSAMSHelper.smartTrimProcessPackageResume: cost time 1 ms end.
+10-27 23:41:58.213 2021-2531/? W/PhoneStateManager: screen off and not process front event:com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.215 2021-2021/? I/K3V3CpuGovernorPolicy: set scene Hmp policy : 300 , 150
+10-27 23:41:58.220 327-362/? I/gralloc: Alloc req: dev=0x7f95b82460, w=16, h=16, format=0x1, usage=0x100
+10-27 23:41:58.221 327-362/? I/gralloc: Alloc handle(0x7f8d4afd00): interfmt=0x1, stride=64, size=4096
+10-27 23:41:58.221 918-918/? D/HwBastetService: BroadcastReceiver android.intent.action.PACKAGE_ADDED
+10-27 23:41:58.221 1771-2264/? I/HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10118
+10-27 23:41:58.227 327-440/? I/gralloc: Free handle(0x7f8d4af100)
+10-27 23:41:58.227 327-440/? I/gralloc: Free handle(0x7f8d4b8300)
+10-27 23:41:58.230 327-4064/? I/gralloc: Free handle(0x7f8d4afd00)
+10-27 23:41:58.242 918-977/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.257 10196-10196/com.lingsh.android.geoquiz3challenge D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.262 327-327/? I/gralloc: Free handle(0x7f8d532500)
+10-27 23:41:58.283 10196-10196/com.lingsh.android.geoquiz3challenge W/System: ClassLoader referenced unknown path: /data/app/com.lingsh.android.geoquiz3challenge-2/lib/arm64
+10-27 23:41:58.297 918-977/? W/Searchables: No global search activity found
+10-27 23:41:58.297 918-977/? I/SendBroadcastPermission: action:android.search.action.SEARCHABLES_CHANGED, mPermissionType:0
+10-27 23:41:58.297 918-977/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=android.search.action.SEARCHABLES_CHANGED flg=0x24000010 }, receivers: null
+10-27 23:41:58.308 10196-10196/com.lingsh.android.geoquiz3challenge D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.308 10196-10196/com.lingsh.android.geoquiz3challenge V/HwPolicyFactory: : success to get AllImpl object and return....
+10-27 23:41:58.309 918-977/? W/Searchables: No global search activity found
+10-27 23:41:58.309 918-977/? I/SendBroadcastPermission: action:android.search.action.SEARCHABLES_CHANGED, mPermissionType:0
+10-27 23:41:58.309 918-977/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=android.search.action.SEARCHABLES_CHANGED flg=0x24000010 }, receivers: null
+10-27 23:41:58.309 918-977/? W/VoiceInteractionManagerService: no available voice recognition services found for user 0
+10-27 23:41:58.310 918-977/? I/LocationProviderProxy-fused: bindBestPackage for com.android.location.service.FusedLocationProvider :  found 1, no new best package
+10-27 23:41:58.311 918-977/? I/ActivityRecognitionProxy: bindBestPackage for com.android.location.service.ActivityRecognitionProvider :  found 1, no new best package
+10-27 23:41:58.312 2090-2090/? I/HwLauncher: Model onPackageChanged packageName = com.lingsh.android.geoquiz3challenge user = UserHandle{0}
+10-27 23:41:58.315 2090-2090/? I/HwLauncher: MutilSelectedIcons onPreHandleUpdatedTask : mIsInMutilSelectMode = false task = 2 packages = [com.lingsh.android.geoquiz3challenge] hasHandleInvisiblePanel = false
+10-27 23:41:58.315 2090-2090/? I/HwLauncher: DeleteDropTarget onPreHandleUpdatedTask : isToUninstallApp = false
+10-27 23:41:58.315 2090-2090/? I/HwLauncher: Model  enqueuePackageUpdated post task
+10-27 23:41:58.315 2090-2181/? I/HwLauncher: Model  PackageUpdatedTask Op : 2
+10-27 23:41:58.315 2090-2181/? I/HwLauncher: Model mAllAppsList.updatePackage com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.315 2090-2181/? I/HwLauncher: AllIdleAppsList  updatePackage  isCloneApp =  false
+10-27 23:41:58.315 918-918/? D/WifiService: onReceive, action:android.intent.action.BATTERY_CHANGED
+10-27 23:41:58.315 918-918/? D/WifiService: ACTION_BATTERY_CHANGED pluggedType: 2
+10-27 23:41:58.316 2090-2181/? I/HwLauncher: AllIdleAppsList  updatePackage : package[com.lingsh.android.geoquiz3challenge] matched activity's size is 1 and data List size is 33
+10-27 23:41:58.317 918-918/? D/HwGpsPowerTracker: ACTION_BATTERY_CHANGED pluggedType: 2
+10-27 23:41:58.317 2049-4057/? D/HwPowerMonitor.Utils: ScrOff setChargingState mIsCharging = true
+10-27 23:41:58.317 2049-4057/? I/HwPowerMonitor.PowerExceptionObservable: unhandled onEvent actionID: 3002
+10-27 23:41:58.317 2049-4057/? W/HwPowerMonitor.DayActObserver: mModemLogStatsTimes = 0, ModemLogState = 0
+10-27 23:41:58.317 2049-4057/? W/HwPowerMonitor.DayActObserver: BAT_CHANGED, mIsScrnOffBatStatsEnabled = true, mIsCharging = true, mIsScrnOfBatDropMonitorStart = false
+10-27 23:41:58.318 1355-1355/? D/PowerUI: level:86-->86 status:2-->2 plugType:2-->2 invalidCharger:0-->0 bucket:1-->1 plugged:true-->true
+10-27 23:41:58.319 10196-10196/com.lingsh.android.geoquiz3challenge V/HwWidgetFactory: : successes to get AllImpl object and return....
+10-27 23:41:58.323 2090-2181/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.324 2090-2181/? I/HwResources: load icon id : 7f0b0000, pkgName : com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.325 10196-10196/com.lingsh.android.geoquiz3challenge V/ActivityThread: ActivityThread,callActivityOnCreate
+10-27 23:41:58.325 918-1478/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{9bbd1dd 6409:com.huawei.systemmanager/1000}, flags: 400
+10-27 23:41:58.325 918-1478/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{cf5656b u0 euid: 0 com.huawei.systemmanager/.util.content.HsmIntentService_ui}, euid: 0
+10-27 23:41:58.332 6409-6497/? I/HwSystemManager: SpaceCleanReceiver:receive intent:android.intent.action.PACKAGE_REMOVED
+10-27 23:41:58.333 10196-10196/com.lingsh.android.geoquiz3challenge W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+10-27 23:41:58.337 2090-2181/? I/HwResources: icon : com.lingsh.android.geoquiz3challenge found in app
+10-27 23:41:58.339 2090-2181/? I/HwLauncher: Launcher.IconCache, cacheLocked  Utilities.createIconBitmap entry.title = GeoQuiz ComponentName:ComponentInfo{com.lingsh.android.geoquiz3challenge/com.lingsh.android.geoquiz3challenge.MainActivity} user:UserHandle{0}
+10-27 23:41:58.340 2090-2181/? I/HwLauncher: Model shortcutInfo.title = ShortcutInfo(title=GeoQuiz)ComponentInfo{com.lingsh.android.geoquiz3challenge/com.lingsh.android.geoquiz3challenge.MainActivity}
+10-27 23:41:58.340 2090-2090/? I/HwLauncher: Workspace updateShortcuts apps.size() 1
+10-27 23:41:58.340 2090-2090/? I/HwLauncher: Launcher.Folder childCount: 7
+10-27 23:41:58.341 8426-8426/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1381 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.android.settings.applications.BlackListReceiver.onReceive:35 android.app.ActivityThread.handleReceiver:2788
+10-27 23:41:58.341 2090-2090/? I/HwLauncher: Launcher.Folder childCount: 5
+10-27 23:41:58.341 2090-2090/? I/HwLauncher: Workspace updateShortcuts shortcutInfo = ShortcutInfo(title=GeoQuiz)
+10-27 23:41:58.341 918-2063/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{43a095b 8426:com.android.settings/1000}, flags: 400
+10-27 23:41:58.342 918-2063/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{524f8c8 u0 euid: 0 com.android.settings/.applications.BlackListService}, euid: 0
+10-27 23:41:58.347 2090-2090/? E/HideAppsPagedView:  syncPages mCurrentPage = 0
+10-27 23:41:58.364 10196-10196/com.lingsh.android.geoquiz3challenge D/QuizActivity: onCreate(Bundle) called
+10-27 23:41:58.364 2090-2090/? E/HideAppsPagedView:  syncAppsPageItems page = 0 mNumAppsPages = 1 mCurrentPage = 0
+10-27 23:41:58.364 2090-2090/? E/HideAppsPagedView:  createAddIcon count = 0
+10-27 23:41:58.369 2090-2090/? I/HwLauncher: Launcher.Utilities   controlColor == 0
+10-27 23:41:58.370 2090-2090/? I/HwLauncher:  FPSMonitor snapToPage whichPage = 0 delta = 0 duration = 550
+10-27 23:41:58.371 2090-2090/? I/HwLauncher: Launcher Deferring update until onResume
+10-27 23:41:58.378 6409-6409/? W/HwSystemManager: HsmIntentService:still has some task running, don't stop service.
+10-27 23:41:58.387 8941-8941/? I/PushLogSC2609: [main-1]action is android.intent.action.PACKAGE_REMOVED(remotecontrol/null:-1)
+10-27 23:41:58.388 6409-6497/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1381 android.content.ContextWrapper.startService:581 com.huawei.systemmanager.spacecleanner.receiver.SpaceCleanReceiver.checkRarelyUsedApp:129 com.huawei.systemmanager.spacecleanner.receiver.SpaceCleanReceiver.doInBackground:57 java.lang.reflect.Method.invoke:-2
+10-27 23:41:58.390 1771-1771/? E/HwSystemManager: AppCleanUpService:msg is 1
+10-27 23:41:58.390 6409-6497/? I/HwSystemManager: SpaceCleanReceiver:package removed: com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.415 10196-10196/com.lingsh.android.geoquiz3challenge D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.15, mControlPoint1y = 0.7, mControlPoint2x = 0.2, mControlPoint2y = 0.98
+10-27 23:41:58.415 8984-8984/? I/PushLogAC2715: [main-1]action is android.intent.action.PACKAGE_REMOVED(pushagent/null:-1)
+10-27 23:41:58.416 10196-10196/com.lingsh.android.geoquiz3challenge D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+10-27 23:41:58.416 10196-10196/com.lingsh.android.geoquiz3challenge D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.15, mControlPoint1y = 0.7, mControlPoint2x = 0.2, mControlPoint2y = 0.98
+10-27 23:41:58.416 10196-10196/com.lingsh.android.geoquiz3challenge D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+10-27 23:41:58.417 8941-8983/? I/PushLogSC2609: [Thread-847-847]framework push exist, use framework push first(remotecontrol/null:-1)
+10-27 23:41:58.423 1342-1342/? I/AppUninstallReceiver: replaced = true dataRemoved = false
+10-27 23:41:58.426 10196-10196/com.lingsh.android.geoquiz3challenge I/art: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>
+10-27 23:41:58.427 10196-10196/com.lingsh.android.geoquiz3challenge I/art: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>
+10-27 23:41:58.427 918-2015/? I/ActivityManager: new Process app=ProcessRecord{c3e7086 0:com.android.keychain/1000}, name: com.android.keychain, euid: 0
+10-27 23:41:58.437 918-2015/? I/ActivityManager: Start proc 10220:com.android.keychain/1000 for broadcast com.android.keychain/.KeyChainBroadcastReceiver
+10-27 23:41:58.438 8984-9007/? I/PushLogAC2715: [Thread-849-849]votedPackage from file:android(pushagent/null:-1)
+10-27 23:41:58.465 10220-10220/? D/ActivityThread: ActivityThread,attachApplication
+10-27 23:41:58.466 918-940/? D/ActivityManager: ActivityManagerService,attachApplication,callingPid = 10220
+10-27 23:41:58.471 327-362/? I/gralloc: Alloc req: dev=0x7f95b82460, w=16, h=16, format=0x1, usage=0x100
+10-27 23:41:58.472 327-362/? I/gralloc: Alloc handle(0x7f8d4af900): interfmt=0x1, stride=64, size=4096
+10-27 23:41:58.473 10220-10232/? E/linker: readlink('/proc/self/fd/22') failed: Permission denied [fd=22]
+10-27 23:41:58.473 10220-10232/? E/linker: warning: unable to get realpath for the library "/system/lib64/hw/gralloc.hi6250.so". Will use given name.
+10-27 23:41:58.476 327-360/? I/gralloc: Free handle(0x7f8d4af900)
+10-27 23:41:58.479 10220-10220/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.487 10220-10220/? W/System: ClassLoader referenced unknown path: /system/app/KeyChain/lib/arm64
+10-27 23:41:58.504 10220-10220/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1381 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.android.keychain.KeyChainBroadcastReceiver.onReceive:12 android.app.ActivityThread.handleReceiver:2788
+10-27 23:41:58.504 918-1811/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{c3e7086 10220:com.android.keychain/1000}, flags: 400
+10-27 23:41:58.505 918-1811/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{9f4d974 u0 euid: 0 com.android.keychain/.KeyChainService}, euid: 0
+10-27 23:41:58.515 918-941/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{7ab116c 9439:com.huawei.hwvplayer.youku:channel/u0a24}, flags: 400
+10-27 23:41:58.516 918-941/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{b3a1e9d u0 euid: 0 com.huawei.hwvplayer.youku/.TaobaoIntentService}, euid: 0
+10-27 23:41:58.545 10196-10196/com.lingsh.android.geoquiz3challenge D/AndroidRuntime: Shutting down VM
+
+
+    --------- beginning of crash
+10-27 23:41:58.546 10196-10196/com.lingsh.android.geoquiz3challenge E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.lingsh.android.geoquiz3challenge, PID: 10196
+    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.lingsh.android.geoquiz3challenge/com.lingsh.android.geoquiz3challenge.MainActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setEnabled(boolean)' on a null object reference
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2479)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2539)
+        at android.app.ActivityThread.access$900(ActivityThread.java:168)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1378)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:150)
+        at android.app.ActivityThread.main(ActivityThread.java:5659)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:822)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:712)
+     Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Button.setEnabled(boolean)' on a null object reference
+        at com.lingsh.android.geoquiz3challenge.MainActivity.updateQuestion(MainActivity.java:142)
+        at com.lingsh.android.geoquiz3challenge.MainActivity.onCreate(MainActivity.java:51)
+        at android.app.Activity.performCreate(Activity.java:6372)
+        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1110)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2432)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2539) 
+        at android.app.ActivityThread.access$900(ActivityThread.java:168) 
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1378) 
+        at android.os.Handler.dispatchMessage(Handler.java:102) 
+        at android.os.Looper.loop(Looper.java:150) 
+        at android.app.ActivityThread.main(ActivityThread.java:5659) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:822) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:712) 
+10-27 23:41:58.548 918-1811/? W/ActivityManager:   Force finishing activity com.lingsh.android.geoquiz3challenge/.MainActivity
+10-27 23:41:58.549 918-6761/? W/System.err: java.lang.NullPointerException: Attempt to invoke virtual method 'int com.huawei.lcagent.client.LogCollectManager.getUserType()' on a null object reference
+10-27 23:41:58.549 918-6761/? W/System.err:     at com.android.server.util.ReportTools.getUserType(ReportTools.java:86)
+10-27 23:41:58.549 918-6761/? W/System.err:     at com.android.server.util.ReportTools.isBetaUser(ReportTools.java:73)
+10-27 23:41:58.549 918-6761/? W/System.err:     at com.android.server.util.ReportTools.report(ReportTools.java:58)
+10-27 23:41:58.549 918-6761/? W/System.err:     at com.android.server.util.HwUserBehaviourRecord.appExitRecordInnerImpl(HwUserBehaviourRecord.java:125)
+10-27 23:41:58.549 918-6761/? W/System.err:     at com.android.server.util.HwUserBehaviourRecord.access$200(HwUserBehaviourRecord.java:32)
+10-27 23:41:58.549 918-6761/? W/System.err:     at com.android.server.util.HwUserBehaviourRecord$AsyUploadLooperThread$1.handleMessage(HwUserBehaviourRecord.java:255)
+10-27 23:41:58.549 918-6761/? W/System.err:     at android.os.Handler.dispatchMessage(Handler.java:102)
+10-27 23:41:58.549 918-6761/? W/System.err:     at android.os.Looper.loop(Looper.java:150)
+10-27 23:41:58.549 918-6761/? W/System.err:     at com.android.server.util.HwUserBehaviourRecord$AsyUploadLooperThread.run(HwUserBehaviourRecord.java:267)
+10-27 23:41:58.549 918-6761/? E/ReportTools: This is not beta user build
+10-27 23:41:58.550 10196-10196/com.lingsh.android.geoquiz3challenge I/Process: Sending signal. PID: 10196 SIG: 9
+10-27 23:41:58.551 2021-2037/? I/PgedBinderListener: kstate callback type:8 value1=10196 value2=KILLED
+10-27 23:41:58.553 918-1227/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{7ab116c 9439:com.huawei.hwvplayer.youku:channel/u0a24}, flags: 400
+10-27 23:41:58.554 918-1227/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{7810f12 u0 euid: 0 com.huawei.hwvplayer.youku/.TaobaoIntentService}, euid: 0
+10-27 23:41:58.555 482-767/? I/logserver: handle_logfile_events, Object Path:/data/system/dropbox/, mask=0x00000080
+10-27 23:41:58.555 482-767/? I/logserver: process_one_event, event->len=48, name=data_app_crash@1572190918553.txt
+10-27 23:41:58.555 482-767/? I/logserver: find_first_match: find match, plogs(type=1, pfile=/data/system/dropbox/, match=app_crash)
+10-27 23:41:58.555 482-767/? I/logserver: dump_logs:1872, system(rm -r /data/log/logcache/-148109008/* > /dev/null 2>&1)
+10-27 23:41:58.555 918-918/? I/SendBroadcastPermission: action:android.intent.action.DROPBOX_ENTRY_ADDED, mPermissionType:0
+10-27 23:41:58.555 918-918/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=android.intent.action.DROPBOX_ENTRY_ADDED flg=0x10 (has extras) }, receivers: null
+10-27 23:41:58.574 482-767/? I/logserver: dump_logs:1880, system(logcat -b main -v threadtime -t 4096 -f  /data/log/logcache/-148109008/20191027234158_main)
+10-27 23:41:58.594 8521-8584/? I/HiApp.PackageService: main{1} InstallerReceiver InstallerReceiver onReceive action: android.intent.action.PACKAGE_ADDED,packageName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.598 8521-8584/? I/HiApp.ProtocolComponent: main{1} getProtocolInfo
+10-27 23:41:58.603 8521-8584/? I/HiApp.PackageService: AsyncTask #5{866} DealTheTaskWhenInstalled pkg :com.lingsh.android.geoquiz3challenge,returnCode:1,isInner:false,other market install the app!:null
+10-27 23:41:58.604 8521-8521/? I/SendBroadcastPermission: action:com.huawei.appmarket.service.installerservice.Receiver, mPermissionType:0
+10-27 23:41:58.604 918-941/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.appmarket.service.installerservice.Receiver flg=0x10 (has extras) }, receivers: null
+10-27 23:41:58.605 9169-10244/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.605 2090-2090/? I/HwLauncher: LauncherDownloadModel onReceive intent=Intent { act=com.huawei.appmarket.service.installerservice.Receiver flg=0x10 (has extras) }
+10-27 23:41:58.608 8521-8521/? I/SendBroadcastPermission: action:com.huawei.appmarket.service.downloadservice.Receiver, mPermissionType:0
+10-27 23:41:58.622 918-2020/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{2aafe19 8832:com.google.android.partnersetup/u0a82}, flags: 400
+10-27 23:41:58.623 918-2020/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{e7716e3 u0 euid: 0 com.google.android.partnersetup/.RlzPingIntentService}, euid: 0
+10-27 23:41:58.630 918-2063/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{2aafe19 8832:com.google.android.partnersetup/u0a82}, flags: 400
+10-27 23:41:58.630 918-2063/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{84018e0 u0 euid: 0 com.google.android.partnersetup/.AppInstalledService}, euid: 0
+10-27 23:41:58.635 918-1944/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10 }, receivers: null
+10-27 23:41:58.635 2090-2090/? I/HwLauncher: LauncherDownloadModel onReceive intent=Intent { act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10 }
+10-27 23:41:58.636 2090-2090/? W/HwLauncher: get getBundleExtra with downloadtask all return null!
+10-27 23:41:58.636 918-940/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{997ce66 8850:com.android.gallery3d/u0a17}, flags: 400
+10-27 23:41:58.637 918-940/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{81f0799 u0 euid: 0 com.android.gallery3d/com.huawei.gallery.photoshare.receiver.GalleryPackageMonitor$AsyncService}, euid: 0
+10-27 23:41:58.641 8521-8584/? I/HiApp.PackageService: main{1} ComPkgProcHandler status view type:11,pkg:com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.644 8521-8584/? I/HiApp.ProtocolComponent: main{1} getProtocolInfo
+10-27 23:41:58.645 8521-8584/? I/HiApp.ReportInstallResult: main{1} ReportInstallResultTask excute start
+10-27 23:41:58.645 918-1510/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{23fa73a 6352:com.android.vending/u0a83}, flags: 400
+10-27 23:41:58.646 918-1510/? W/ActivityManager: Unable to start service Intent { dat=wearsupportservice://send_installed_apps cmp=com.android.vending/com.google.android.finsky.x.an (has extras) } U=0: not found
+10-27 23:41:58.646 918-1811/? I/ActivityManager: Process com.lingsh.android.geoquiz3challenge (pid 10196) has died
+10-27 23:41:58.646 918-1811/? D/ActivityManager: cleanUpApplicationRecord -- 10196
+10-27 23:41:58.646 918-1811/? I/ActivityManager: cleanUpApplicationRecordLocked, reset pid: 10196, euid: 0
+10-27 23:41:58.648 482-767/? I/logserver: dump_logs:1889, system(logcat -b system -v threadtime -t 4096 -f  /data/log/logcache/-148109008/20191027234158_system)
+10-27 23:41:58.658 918-1229/? I/HwActivityManagerService: PackageName for pid 6352 is com.android.vending
+10-27 23:41:58.665 1771-2264/? I/HwSystemManager: NotificationGuideService:handle MSG_ACTIVIY_FOREGROUND, uid:10048
+10-27 23:41:58.670 918-1768/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{23fa73a 6352:com.android.vending/u0a83}, flags: 400
+10-27 23:41:58.670 918-1768/? W/ActivityManager: Unable to start service Intent { cmp=com.android.vending/com.google.android.finsky.utils.ff (has extras) } U=0: not found
+10-27 23:41:58.671 2090-2090/? I/HwLauncher: Launcher onStart()
+10-27 23:41:58.671 2090-2090/? I/HwLauncher: Launcher dynamicIconsRegister
+10-27 23:41:58.671 2090-2090/? I/HwLauncher: DynamicUpdater registerReceiver
+10-27 23:41:58.672 2090-2090/? I/HwLauncher: DynamicUpdater call updateFolder
+10-27 23:41:58.673 2090-2181/? I/HwLauncher: WeatherDynamicUpdater positiveUpdate at WeatherDynamicUpdater
+10-27 23:41:58.673 2090-2090/? I/HwLauncher: DynamicIcon onResume  isvisible = true   mAttachedToWindow:false    mWindowVisible:falsecom.huawei.android.totemweather
+10-27 23:41:58.673 2090-2090/? I/HwLauncher: DynamicUpdater registerReceiver
+10-27 23:41:58.674 918-1811/? V/SMCSAMSHelper: SMCSAMSHelper.addSTPEvent: cost 0 ms end.
+10-27 23:41:58.674 918-1811/? V/SMCSAMSHelper: SMCSAMSHelper.smartTrimAddProcessRelation: cost 0 ms end.
+10-27 23:41:58.675 918-2000/? E/HsmCoreServiceImpl: onTransact in code is: 102
+10-27 23:41:58.675 918-2000/? I/MediaProcessHandler: processOp opType: 1, uid: 10118, pid: 10196
+10-27 23:41:58.675 918-2000/? W/MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10118, pid: 10196
+10-27 23:41:58.677 21040-21050/? E/TotemWeather: Utils error:getWidgetShowCityInfo return myLocation
+10-27 23:41:58.678 918-940/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{23fa73a 6352:com.android.vending/u0a83}, flags: 400
+10-27 23:41:58.678 2090-2090/? I/HwLauncher: DynamicUpdater call updateFolder
+10-27 23:41:58.678 2090-2090/? I/HwLauncher: DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.deskclock
+10-27 23:41:58.678 2090-2090/? I/HwLauncher: DynamicUpdater registerReceiver
+10-27 23:41:58.678 918-940/? W/ActivityManager: Unable to start service Intent { dat=externalreferrerservice://sendreferrer/com.lingsh.android.geoquiz3challenge cmp=com.android.vending/com.google.android.finsky.utils.bm (has extras) } U=0: not found
+10-27 23:41:58.680 2090-2090/? I/HwLauncher: DynamicUpdater call updateFolder
+10-27 23:41:58.680 2090-2090/? I/HwLauncher: DynamicIcon onResume  isvisible = false   mAttachedToWindow:true    mWindowVisible:falsecom.android.calendar
+10-27 23:41:58.680 2090-2090/? I/HwLauncher: Launcher  Launcher.onStart() cost 9 ms
+10-27 23:41:58.681 1771-2375/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.695 2090-2294/? D/mali_winsys: new_window_surface returns 0x3000
+10-27 23:41:58.695 327-7594/? I/gralloc: Alloc req: dev=0x7f95b82460, w=1080, h=1920, format=0x1, usage=0xb00
+10-27 23:41:58.698 327-7594/? I/gralloc: Alloc handle(0x7f8d4b8c00): interfmt=0x200000001, stride=1088, size=8486912
+10-27 23:41:58.698 327-7594/? I/gralloc: Alloc req: dev=0x7f95b82460, w=1080, h=1920, format=0x1, usage=0xb00
+10-27 23:41:58.699 2090-2090/? I/SendBroadcastPermission: action:com.huawei.android.action.WIDGET_FOCUS_CHANGE, mPermissionType:0
+10-27 23:41:58.701 918-2061/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.android.action.WIDGET_FOCUS_CHANGE flg=0x10 (has extras) }, receivers: null
+10-27 23:41:58.701 327-7594/? I/gralloc: Alloc handle(0x7f8d4b8800): interfmt=0x200000001, stride=1088, size=8486912
+10-27 23:41:58.701 327-7594/? I/gralloc: Alloc req: dev=0x7f95b82460, w=1080, h=1920, format=0x1, usage=0xb00
+10-27 23:41:58.701 2090-2090/? I/SendBroadcastPermission: action:com.huawei.android.action.ACTION_UPDATE_TIME_CHECK, mPermissionType:0
+10-27 23:41:58.704 327-7594/? I/gralloc: Alloc handle(0x7f8d4cc200): interfmt=0x200000001, stride=1088, size=8486912
+10-27 23:41:58.706 21040-21050/? I/SendBroadcastPermission: action:com.huawei.android.action.launcher_weather_icon_change, mPermissionType:0
+10-27 23:41:58.706 1771-2375/? I/HwResources: load icon id : 7f020075, pkgName : com.huawei.android.launcher
+10-27 23:41:58.708 1771-1771/? I/HwSystemManager: NotificationManagerReceiver:onReceive action = android.intent.action.PACKAGE_ADDED
+10-27 23:41:58.709 918-2020/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.android.action.launcher_weather_icon_change flg=0x10 (has extras) }, receivers: null
+10-27 23:41:58.710 918-2063/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.android.action.ACTION_UPDATE_TIME_CHECK flg=0x10 pkg=com.huawei.android.totemweather (has extras) }, receivers: [ResolveInfo{484e90d com.huawei.android.totemweather/.utils.CenterReceiver m=0x108000 euid=0}]
+10-27 23:41:58.710 918-1768/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{faca16 1771:com.huawei.systemmanager:service/1000}, flags: 400
+10-27 23:41:58.711 918-1768/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{6cb7ed3 u0 euid: 0 com.huawei.systemmanager/.util.content.HsmIntentService_bg}, euid: 0
+10-27 23:41:58.712 918-1229/? W/InputMethodManagerService: Window already focused, ignoring focus gain of: com.android.internal.view.IInputMethodClient$Stub$Proxy@f7b7a10 attribute=null, token = android.os.BinderProxy@7770dbc
+10-27 23:41:58.713 2090-2181/? E/HwLauncher: SettingsEx , no such field.
+10-27 23:41:58.714 2090-2181/? W/HwLauncher: Clock getDataFormat the getSystemString failed.
+10-27 23:41:58.715 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.android.deskclock, picName = deskclock_bg
+10-27 23:41:58.715 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.android.deskclock, picName = deskclock_bg
+10-27 23:41:58.715 6409-6409/? I/HwSystemManager: AppInstallationReceiver:AppInstallationReceiver onReceive action = android.intent.action.PACKAGE_ADDED
+10-27 23:41:58.715 8521-8521/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.717 918-2006/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{9bbd1dd 6409:com.huawei.systemmanager/1000}, flags: 400
+10-27 23:41:58.718 918-2006/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{f240909 u0 euid: 0 com.huawei.systemmanager/.util.content.HsmIntentService_ui}, euid: 0
+10-27 23:41:58.735 482-767/? I/logserver: dump_logs:1898, system(logcat -b events -v threadtime -t 4096 -f  /data/log/logcache/-148109008/20191027234158_events)
+10-27 23:41:58.739 6409-6500/? I/HwSystemManager: OptimizeReceiver:OptimizeReceiver received action:android.intent.action.PACKAGE_ADDED
+10-27 23:41:58.739 6409-6409/? I/HwSystemManager: BootBroadcastReceiver:BootBroadcastReceiver action =android.intent.action.PACKAGE_ADDED
+10-27 23:41:58.741 6409-6491/? I/HwSystemManager: HandlePackageAdd:HandlePackageAdd replacing=true
+10-27 23:41:58.746 1771-2375/? I/HwResources: icon : com.huawei.android.launcher found in app
+10-27 23:41:58.747 2090-2090/? I/HwLauncher: WeatherDynamicUpdater receive action = com.huawei.android.action.launcher_weather_icon_change
+10-27 23:41:58.747 2090-2181/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.752 2090-2181/? I/HwResources: load icon id : 7f030000, pkgName : com.android.deskclock
+10-27 23:41:58.752 6409-6501/? W/HwSystemManager: AppInstallationReceiver:The installed app has already configured. ignore com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.752 6409-6501/? I/SendBroadcastPermission: action:PACKAGE_ADDED_OR_REMOVED, mPermissionType:0
+10-27 23:41:58.753 8521-8584/? I/HiApp.UpdateManager/AppFileInfoManager: pool-6-thread-1{843} getAppFileHash and KeySetss:0
+10-27 23:41:58.754 918-1944/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=PACKAGE_ADDED_OR_REMOVED flg=0x10 pkg=com.huawei.systemmanager (has extras) }, receivers: null
+10-27 23:41:58.757 6409-6493/? I/HwSystemManager: ProtectAppControl:handleMessage:6
+10-27 23:41:58.757 6409-6493/? I/HwSystemManager: ProtectAppControl:begin install app inner:com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.762 6409-6493/? W/HwSystemManager: ProtectAppControl:can't get app's request permissions : com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.765 2090-2181/? I/HwLauncher: Launcher.IconCache, cacheLocked  Utilities.createIconBitmap entry.title = 时钟 ComponentName:ComponentInfo{com.android.deskclock/com.android.deskclock.AlarmsMainActivity} user:UserHandle{0}
+10-27 23:41:58.765 2090-2181/? I/HwLauncher: ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+10-27 23:41:58.765 2090-2181/? I/HwLauncher: DynamicUpdater updateBitmap end and send update message
+10-27 23:41:58.765 2090-2181/? I/HwLauncher: WeatherDynamicUpdater receiver data is int[] = [0, 0, 71, 0, 96, 0, 121, 0] ; stringArray[] = [mostlycloudy, num3, num6, tempc] ; dynamic_gravity = center
+10-27 23:41:58.765 2090-2181/? I/HwLauncher: WeatherDynamicUpdater update before : mDrawingData[0] = mostlycloudy:0, 0, 0
+10-27 23:41:58.765 2090-2090/? I/HwLauncher: DynamicUpdater call updateFolder
+10-27 23:41:58.765 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = mostlycloudy
+10-27 23:41:58.768 6409-10259/? I/HwSystemManager: BootStartManager:batchDeleteOperation !
+10-27 23:41:58.769 6409-10259/? I/HwSystemManager: BootStartManager:batchDeleteOperation !
+10-27 23:41:58.770 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = mostlycloudy
+10-27 23:41:58.770 2090-2181/? I/HwLauncher: WeatherDynamicUpdater update before : mDrawingData[1] = num3:71, 0, 0
+10-27 23:41:58.770 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = num3
+10-27 23:41:58.771 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = num3
+10-27 23:41:58.771 2090-2181/? I/HwLauncher: WeatherDynamicUpdater update before : mDrawingData[2] = num6:96, 0, 0
+10-27 23:41:58.772 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = num6
+10-27 23:41:58.772 6409-6493/? I/HwSystemManager: ProtectAppControl:pkg:com.lingsh.android.geoquiz3challenge isDefalutControlled is true
+10-27 23:41:58.773 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = num6
+10-27 23:41:58.773 2090-2181/? I/HwLauncher: WeatherDynamicUpdater update before : mDrawingData[3] = tempc:121, 0, 0
+10-27 23:41:58.773 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.huawei.android.totemweather, picName = tempc
+10-27 23:41:58.775 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.huawei.android.totemweather, picName = tempc
+10-27 23:41:58.775 2090-2181/? I/HwLauncher: WeatherDynamicUpdater tmpMapList = {tempc=25, num6=25, mostlycloudy=192, num3=25} , leftMargin = 58 , totalWidth = 75
+10-27 23:41:58.776 2090-2181/? I/HwLauncher: WeatherDynamicUpdater update after : mDrawingData[1] = num3:58, 0, 0
+10-27 23:41:58.776 2090-2181/? I/HwLauncher: WeatherDynamicUpdater update after : mDrawingData[2] = num6:83, 0, 0
+10-27 23:41:58.776 2090-2181/? I/HwLauncher: WeatherDynamicUpdater update after : mDrawingData[3] = tempc:108, 0, 0
+10-27 23:41:58.776 6409-6409/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1381 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.huawei.systemmanager.antivirus.utils.AntiVirusTools.checkVirusForNewInstalledApk:568 com.huawei.systemmanager.antivirus.AntiVirusReceiver.onReceive:35
+10-27 23:41:58.777 918-2015/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{9bbd1dd 6409:com.huawei.systemmanager/1000}, flags: 400
+10-27 23:41:58.779 1771-10263/? W/HwSystemManager: TencentAntiVirusEngine:initQScanner: Already initialized ,skip
+10-27 23:41:58.781 6409-6493/? W/HwSystemManager: ProtectAppControl:com.lingsh.android.geoquiz3challenge already exist!
+10-27 23:41:58.786 8521-8584/? E/HiApp.AppUpdatePolicy: main{1} <<< ERROR >>> the installed app list is not initial yet. it's useless to update!
+10-27 23:41:58.787 6409-7310/? I/HwSystemManager: SpaceCleanReceiver:receive intent:android.intent.action.PACKAGE_ADDED
+10-27 23:41:58.788 6409-7310/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1381 android.content.ContextWrapper.startService:581 com.huawei.systemmanager.spacecleanner.receiver.SpaceCleanReceiver.checkRarelyUsedApp:129 com.huawei.systemmanager.spacecleanner.receiver.SpaceCleanReceiver.doInBackground:57 java.lang.reflect.Method.invoke:-2
+10-27 23:41:58.788 8521-8584/? I/HiApp.InstalledAppDataMgr: main{1} updateInstalledApp pkg :com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.790 1771-10263/? D/HwCust: Create obj success use class android.content.res.HwCustHwResourcesImpl
+10-27 23:41:58.790 1771-1771/? E/HwSystemManager: AppCleanUpService:msg is 0
+10-27 23:41:58.790 6409-7310/? I/HwSystemManager: SpaceCleanReceiver:package added: com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.791 1771-10265/? I/HwSystemManager: AppCleanUpService:begin to insertAppWithPkgName, pkg:com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.792 6409-7310/? E/HwSystemManager: SpaceCleanReceiver:doPkgAdd pm is null
+10-27 23:41:58.794 8521-8584/? I/HiApp.StoreAgent: main{1} executeTask, method:client.installResultRep, ActiveCount:0, TaskCount:1
+10-27 23:41:58.806 1771-10263/? I/HwSystemManager: AntiVirusService:found virusscan pkg, send broadcast. pkg:com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.806 1771-10263/? I/SendBroadcastPermission: action:com.huawei.systemmanager.action.found_virusscan_app, mPermissionType:0
+10-27 23:41:58.811 918-1995/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.systemmanager.action.found_virusscan_app flg=0x10 pkg=com.huawei.systemmanager (has extras) }, receivers: null
+10-27 23:41:58.811 8426-8426/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1381 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.android.settings.applications.BlackListReceiver.onReceive:35 android.app.ActivityThread.handleReceiver:2788
+10-27 23:41:58.812 918-1768/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{43a095b 8426:com.android.settings/1000}, flags: 400
+10-27 23:41:58.812 918-1768/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{30ec70e u0 euid: 0 com.android.settings/.applications.BlackListService}, euid: 0
+10-27 23:41:58.816 8941-8941/? I/PushLogSC2609: [main-1]action is android.intent.action.PACKAGE_ADDED(remotecontrol/null:-1)
+10-27 23:41:58.818 8941-8941/? I/PushLogSC2609: [main-1]run push selfshow(remotecontrol/null:-1)
+10-27 23:41:58.818 8521-8584/? I/HiApp.ApkObtainTask: pool-6-thread-1{843} Do task with cmd:OnlineDataDetect,needNotify:false,param:null
+10-27 23:41:58.821 8521-8584/? I/HiApp.ProtocolComponent: pool-10-thread-2{869} getProtocolInfo
+10-27 23:41:58.822 8521-8584/? I/HiApp.AppInstalledUpdateCh: pool-9-thread-1{860} do not have active netowrk.can not get update msg online.
+10-27 23:41:58.823 8941-8983/? I/PushLogSC2609: [Thread-847-847]framework push exist, use framework push first(remotecontrol/null:-1)
+10-27 23:41:58.825 8984-8984/? I/PushLogAC2715: [main-1]action is android.intent.action.PACKAGE_ADDED(pushagent/null:-1)
+10-27 23:41:58.827 8984-8984/? I/PushLogAC2715: [main-1]run push selfshow(pushagent/null:-1)
+10-27 23:41:58.828 8984-9007/? I/PushLogAC2715: [Thread-849-849]votedPackage from file:android(pushagent/null:-1)
+10-27 23:41:58.849 8521-8584/? I/HiApp.PackageService: main{1} InstallerReceiver InstallerReceiver onReceive action: android.intent.action.PACKAGE_REPLACED,packageName:com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.856 8521-8584/? I/HiApp.ReportInstallResult: AsyncTask #6{872} update result:1
+10-27 23:41:58.858 6409-6409/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1381 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.huawei.systemmanager.antivirus.utils.AntiVirusTools.checkVirusForNewInstalledApk:568 com.huawei.systemmanager.antivirus.AntiVirusReceiver.onReceive:35
+10-27 23:41:58.859 918-1478/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{9bbd1dd 6409:com.huawei.systemmanager/1000}, flags: 400
+10-27 23:41:58.862 8426-8426/? W/ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1381 android.content.ContextWrapper.startService:581 android.content.ContextWrapper.startService:581 com.android.settings.applications.BlackListReceiver.onReceive:35 android.app.ActivityThread.handleReceiver:2788
+10-27 23:41:58.862 918-1510/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{43a095b 8426:com.android.settings/1000}, flags: 400
+10-27 23:41:58.863 918-1510/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{c5352f u0 euid: 0 com.android.settings/.applications.BlackListService}, euid: 0
+10-27 23:41:58.863 1771-10277/? W/HwSystemManager: TencentAntiVirusEngine:initQScanner: Already initialized ,skip
+10-27 23:41:58.885 918-1478/? I/ActivityManager: retrieveServiceLocked, callerApp: ProcessRecord{8bb30b6 21040:com.huawei.android.totemweather/u0a26}, flags: 400
+10-27 23:41:58.886 918-1478/? I/ActivityManager: bindServiceLocked, r: ServiceRecord{b86273c u0 euid: 0 com.huawei.android.totemweather/.WeatherService}, euid: 0
+10-27 23:41:58.887 21040-21040/? D/HwCust: Create obj success use class com.huawei.android.totemweather.utils.HwCustTotemLocationImpl
+10-27 23:41:58.889 1771-10277/? I/HwSystemManager: AntiVirusService:found virusscan pkg, send broadcast. pkg:com.lingsh.android.geoquiz3challenge
+10-27 23:41:58.889 1771-10277/? I/SendBroadcastPermission: action:com.huawei.systemmanager.action.found_virusscan_app, mPermissionType:0
+10-27 23:41:58.892 21040-10281/? W/TotemWeather: WeatherTaskController warn: getWeatherTask is null, stop weather task thread
+10-27 23:41:58.894 918-2061/? I/ActivityManager: collectReceiverComponents for intent: Intent { act=com.huawei.systemmanager.action.found_virusscan_app flg=0x10 pkg=com.huawei.systemmanager (has extras) }, receivers: null
+10-27 23:41:58.948 482-767/? I/logserver: dump_logs:1907, system(logcat -b radio -v threadtime -t 4096 -f  /data/log/logcache/-148109008/20191027234158_radio)
+10-27 23:41:59.111 482-767/? I/logserver: dump_logs:1916, system(dmesg> /data/log/logcache/-148109008/20191027234158_kmsg)
+10-27 23:41:59.150 482-767/? I/logserver: is_all_ready, any file is ready in non-keyfile exception.
+10-27 23:41:59.150 482-767/? I/logserver: extract_appname, forward search, appname=com.lingsh.android.geoquiz3challenge
+10-27 23:41:59.151 482-767/? I/logserver: archive_and_send, pos=0, type=crash, output=20191027234159_crash
+10-27 23:41:59.151 482-767/? I/logserver: ---copy_match_files enter!!--
+10-27 23:41:59.151 482-767/? I/logserver: [copy_match_files,864]: copy [/data/system/dropbox/data_app_crash@1572190918553.txt] to [/data/log/logcache/-148109008/data_app_crash@1572190918553.txt]
+10-27 23:41:59.151 482-767/? I/logserver: get_fault_appname, appname=com.lingsh.android.geoquiz3challenge
+10-27 23:41:59.151 482-767/? I/logserver: handle_archive_exception, BASIC_MODE
+10-27 23:41:59.151 482-767/? I/logserver: remove_last_modify_file, into 1 times, file_dir:
+10-27 23:41:59.151 482-767/? I/logserver: remove_last_modify_file, into 1 times, file_dir:
+10-27 23:41:59.152 482-767/? I/logserver: get_disk_available_size, Disk_available = 4324937728 B = 4124 MB
+10-27 23:41:59.152 482-767/? I/logserver: pack_files, output_path is /data/log/unzip.
+10-27 23:41:59.152 482-767/? I/logserver: move_input_files, create dir [/data/log/unzip/NEM-UL10_NEM-UL10C00B207_0000000000_20191027234159_crash]
+10-27 23:41:59.160 482-767/? I/logserver: handle_archive_exception, into set notify_type
+10-27 23:41:59.160 482-767/? I/logserver: get_notify_mode, 1
+10-27 23:41:59.161 482-767/? I/logserver: Process 767 opened FIFO(12) for O_WRONLY
+10-27 23:41:59.161 482-767/? I/logserver: notify_logcontrol, 767 sent /data/log/unzip/NEM-UL10_NEM-UL10C00B207_0000000000_20191027234159_crash
+10-27 23:41:59.161 482-482/? I/logserver: process_event
+10-27 23:41:59.161 482-482/? I/logserver: handle_fifo_msg, read res = 460, client pid = 767, command = send log, data=/data/log/unzip/NEM-UL10_NEM-UL10C00B207_0000000000_20191027234159_crash
+10-27 23:41:59.161 482-482/? I/logserver: handle_fifo_msg, 767 sent /data/log/unzip/NEM-UL10_NEM-UL10C00B207_0000000000_20191027234159_crash
+10-27 23:41:59.161 482-766/? I/logserver: thread_logcontrol: /data/log/logcontrol has changed.
+10-27 23:41:59.161 482-767/? I/logserver: check_dir_size, dir[/data/log/coredump/] doesn't exist
+10-27 23:41:59.161 482-766/? I/logserver: handle_notify_event, send msg [submit:trigger=0,bugtype=2,modulename=com.lingsh.android.geoquiz3challenge,level=1,testtype=NORMAL,path=/data/log/unzip/NEM-UL10_NEM-UL10C00B207_0000000000_20191027234159_crash,mode=1;]
+10-27 23:41:59.161 482-767/? I/logserver: clean_cur_cache:999, system(rm -r /data/log/logcache/-148109008/* > /dev/null 2>&1)
+10-27 23:41:59.161 482-766/? I/logserver: send_to_client, send to (9) res = 184
+10-27 23:41:59.252 9439-9596/? I/System.out: add is youku-jmacs.m.taobao.com,port is 443
+10-27 23:41:59.254 451-10290/? D/libc: GetAddrInfoHandler addr: 0.0.0.0
+10-27 23:41:59.255 451-10290/? D/libc: GetAddrInfoHandler addr: 0.0.0.0
+10-27 23:41:59.257 451-10290/? D/DnsProxyListener: GetAddrInfoHandler: getaddrinfo failed! count=1150, total=1158 youku-jmacs.m.taobao.com {0,0,0,917504,10024}
+10-27 23:41:59.257 9439-9596/? W/System.err: org.android.spdy.SpdyErrorException: create session error: -1107
+10-27 23:41:59.257 9439-9596/? W/System.err:     at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:492)
+10-27 23:41:59.257 9439-9596/? W/System.err:     at org.android.spdy.SpdyAgent.createSession(SpdyAgent.java:347)
+10-27 23:41:59.257 9439-9596/? W/System.err:     at com.taobao.accs.net.g.connect(SpdyConnection.java:396)
+10-27 23:41:59.257 9439-9596/? W/System.err:     at com.taobao.accs.net.g.b(SpdyConnection.java:55)
+10-27 23:41:59.257 9439-9596/? W/System.err:     at com.taobao.accs.net.g$a.jU(SpdyConnection.java:690)
+10-27 23:41:59.257 9439-9596/? W/System.err:     at com.taobao.accs.net.g$a.run(SpdyConnection.java:748)
+10-27 23:41:59.271 1945-2163/? W/DeviceInfoFile: !devFile.exists()
+10-27 23:41:59.375 1945-2163/? I/System.out: [chown, system.log, /log/LogService/3/done/Stabilization_NEM-UL10_NEM-UL10C00B207_nVvUCG47cBvnSbC1h5L76OGxCe88rSpSDZO2VNUoTMA=_20191027234159_crash_NORMAL.zip]
+10-27 23:41:59.375 1945-2163/? I/System.out: null
+10-27 23:41:59.375 1945-2163/? I/System.out: null
+10-27 23:41:59.392 1945-2163/? I/System.out: Calling by::className:com.huawei.lcagent.util.FileUtils  MethodName:runCommand
+10-27 23:41:59.407 1945-2163/? I/System.out: [chmod, 640, /log/LogService/3/done/Stabilization_NEM-UL10_NEM-UL10C00B207_nVvUCG47cBvnSbC1h5L76OGxCe88rSpSDZO2VNUoTMA=_20191027234159_crash_NORMAL.zip]
+10-27 23:41:59.407 1945-2163/? I/System.out: null
+10-27 23:41:59.407 1945-2163/? I/System.out: null
+10-27 23:41:59.408 1945-2163/? I/System.out: Calling by::className:com.huawei.lcagent.util.FileUtils  MethodName:runCommand
+10-27 23:41:59.425 1945-2163/? I/System.out: [chown, system.log, /log/LogService/3/uploading/Stabilization_NEM-UL10_NEM-UL10C00B207_nVvUCG47cBvnSbC1h5L76OGxCe88rSpSDZO2VNUoTMA=_20191027234159_crash_NORMAL.zip]
+10-27 23:41:59.425 1945-2163/? I/System.out: null
+10-27 23:41:59.425 1945-2163/? I/System.out: null
+10-27 23:41:59.425 1945-2163/? I/System.out: Calling by::className:com.huawei.lcagent.util.FileUtils  MethodName:runCommand
+10-27 23:41:59.440 1945-2163/? I/System.out: [chmod, 640, /log/LogService/3/uploading/Stabilization_NEM-UL10_NEM-UL10C00B207_nVvUCG47cBvnSbC1h5L76OGxCe88rSpSDZO2VNUoTMA=_20191027234159_crash_NORMAL.zip]
+10-27 23:41:59.440 1945-2163/? I/System.out: null
+10-27 23:41:59.440 1945-2163/? I/System.out: null
+10-27 23:41:59.441 1945-2163/? I/System.out: Calling by::className:com.huawei.lcagent.util.FileUtils  MethodName:runCommand
+10-27 23:41:59.715 2021-2021/? I/K3V3CpuGovernorPolicy: close previously scene Hmp policy : 300 , 150
+10-27 23:42:01.483 465-465/? E/Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 29
+10-27 23:42:01.484 465-465/? E/Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+10-27 23:42:01.485 465-465/? E/Thermal-daemon: [ap] temp_new :32  temp_old :31
+10-27 23:42:01.486 465-465/? E/Thermal-daemon: Report temperature: [ap] temp :32  report_threshold:1
+10-27 23:42:01.487 2021-2531/? D/ThermalStateManager: Thermal type: 0 cur_temperature:32
+10-27 23:42:01.866 1771-1783/? D/DeviceInfo: ramSize =2097152
+10-27 23:42:02.512 2021-2021/? D/PGUtils: No im permission : com.lingsh.android.geoquiz3challenge
+10-27 23:42:05.388 918-940/? I/ActivityManager: Killing 8293:com.huawei.android.hwouc:hwbdservice/u0a46 (adj 15): empty #19
+10-27 23:42:05.390 2021-2034/? I/PgedBinderListener: kstate callback type:8 value1=8293 value2=KILLED
+10-27 23:42:05.455 918-1944/? D/ActivityManager: cleanUpApplicationRecord -- 8293
+10-27 23:42:05.456 918-1944/? I/ActivityManager: cleanUpApplicationRecordLocked, reset pid: 8293, euid: 0
+10-27 23:42:05.457 918-1995/? E/HsmCoreServiceImpl: onTransact in code is: 102
+10-27 23:42:05.457 918-1995/? I/MediaProcessHandler: processOp opType: 1, uid: 10046, pid: 8293
+10-27 23:42:05.457 918-1995/? W/MediaProcessHandler: remove target not exist, maybe the UI process: uid: 10046, pid: 8293
+10-27 23:42:06.486 465-465/? E/Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 29
+10-27 23:42:06.486 465-465/? E/Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+10-27 23:42:06.488 465-465/? E/Thermal-daemon: [ap] temp_new :31  temp_old :32
+10-27 23:42:06.488 465-465/? E/Thermal-daemon: Report temperature: [ap] temp :31  report_threshold:1
+10-27 23:42:06.490 2021-2531/? D/ThermalStateManager: Thermal type: 0 cur_temperature:31
+10-27 23:42:07.603 1771-1786/? D/DeviceInfo: ramSize =2097152
+10-27 23:42:07.958 2021-2021/? D/AppsUsage: write app static DB !
+10-27 23:42:07.990 2021-2021/? I/PGUtils: im apps = [com.alibaba.mobileim, com.taobao.qianniu, com.jd.im.seller, jd.dd.seller, com.facebook.orca, com.immomo.momo, com.eg.android.AlipayGphone, com.tencent.mm, com.tencent.mobileqq]
+10-27 23:42:07.993 2021-2021/? D/PGUtils: No im permission : com.android.mediacenter
+10-27 23:42:08.001 2021-2021/? I/ash: AppStaticDB change !
+10-27 23:42:11.489 465-465/? E/Thermal-daemon: [Thermal_Hw] temperature_valid, battery : temperature is invalid, invalid temperatrue is 29
+10-27 23:42:11.489 465-465/? E/Thermal-daemon: [Thermal_Hw] temperature_filter: get invalid temperature, use old temp
+10-27 23:42:13.333 1771-2038/? D/DeviceInfo: ramSize =2097152
+10-27 23:42:13.659 918-1213/? W/AlarmManager: WAKEUP alarm trigger action = null elapsed = 1241699832
+10-27 23:42:13.660 918-1213/? I/ActivityManager: retrieveServiceLocked, callerApp: null, flags: 400
+10-27 23:42:13.660 918-1213/? W/ActivityManager: Unable to start service Intent { flg=0x4 cmp=com.android.vending/com.google.android.finsky.services.a (has extras) } U=0: not found
+10-27 23:42:13.666 1355-1355/? I/TimeManager: receiver action = android.intent.action.TIME_TICK
+10-27 23:42:13.667 2090-2090/? I/HwLauncher: Model  onReceive intent=Intent { act=android.intent.action.TIME_TICK flg=0x50000014 (has extras) }
+10-27 23:42:13.667 2090-2090/? I/HwLauncher: Model  onReceive user=UserHandle{0}
+10-27 23:42:13.721 2090-2090/? I/HwLauncher: ClockDynamicUpdater date changed begin
+10-27 23:42:13.721 2090-2090/? I/HwLauncher: ClockDynamicUpdater date changed end
+10-27 23:42:13.721 2090-2181/? E/HwLauncher: SettingsEx , no such field.
+10-27 23:42:13.721 2090-2181/? W/HwLauncher: Clock getDataFormat the getSystemString failed.
+10-27 23:42:13.722 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic begin, pkg = com.android.deskclock, picName = deskclock_bg
+10-27 23:42:13.722 2090-2181/? I/HwLauncher: DynamicIconData , getDrawableForDynamic end, pkg = com.android.deskclock, picName = deskclock_bg
+10-27 23:42:13.724 2090-2181/? I/HwLauncher: ClockDynamicUpdater clock update folder at ClockDynamicUpdater
+10-27 23:42:13.724 2090-2181/? I/HwLauncher: DynamicUpdater updateBitmap end and send update message
+10-27 23:42:13.732 2090-2090/? I/HwLauncher: CalenderDynamicUpdater date changed begin
+10-27 23:42:13.732 2090-2090/? I/HwLauncher: CalenderDynamicUpdater date changed end
+10-27 23:42:13.732 2090-2090/? I/HwLauncher: DynamicUpdater call updateFolder
