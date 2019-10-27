@@ -1,23 +1,24 @@
 package com.lingsh.android.geoquiz3;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "QuizActivity";
+    private static final String KEY_INDEX = "index";
 
     private Button mTrueButton;
     private Button mFalseButton;
-    private ImageButton mNextButton;
-    private ImageButton mPrevButton;
+    private Button mNextButton;
+    private Button mPrevButton;
     private TextView mQuestionTextView;
 
     private Question[] mQuestionBank = new Question[]{
@@ -33,8 +34,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         Log.d(TAG, "onCreate(Bundle) called");
         setContentView(R.layout.activity_main);
+
+        if (savedInstanceState != null) {
+            mCurrentIndex = savedInstanceState.getInt(KEY_INDEX, 0);
+        }
 
         mQuestionTextView = findViewById(R.id.question_text_view);
         updateQuestion();
@@ -99,6 +105,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         Log.d(TAG, "onPause() called");
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        // 在Stop之前调用 用于保存一份状态
+        Log.d(TAG, "onSaveInstanceState() called");
+        outState.putInt(KEY_INDEX, mCurrentIndex);
+        // Bundle 本身是个k-v键值对 但只能存储:1,基本数据类型 2,实现序列化接口的对象
     }
 
     @Override
