@@ -9,12 +9,15 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    private Button mTrueButton;
+    private Button mFalseButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button mTrueButton = findViewById(R.id.true_button);
+        mTrueButton = findViewById(R.id.true_button);
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button mFalseButton = findViewById(R.id.false_button);
+        mFalseButton = findViewById(R.id.false_button);
         mFalseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
