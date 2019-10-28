@@ -13,6 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.Arrays;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "QuizActivity";
@@ -196,6 +198,7 @@ public class MainActivity extends AppCompatActivity {
         boolean questionAnswer = mQuestionBank[mCurrentIndex].isAnswerTrue();
 
         int toastTexId;
+        Log.d(TAG, "cheat questions list: " + Arrays.toString(mCheatQuestionList));
         if (mIsCheater || mCheatQuestionList[mCurrentIndex]) {
             toastTexId = R.string.judgment_toast;
             mCheatQuestionList[mCurrentIndex] = true;
