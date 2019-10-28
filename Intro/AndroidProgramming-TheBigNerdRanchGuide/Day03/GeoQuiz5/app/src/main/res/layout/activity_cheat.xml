@@ -26,4 +26,20 @@
         android:layout_height="wrap_content"
         android:text="@string/show_answer_button" />
 
+    <TextView
+        android:id="@+id/current_api_level_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="12sp"
+        tools:text="API Level" />
+
+    <TextView
+        android:id="@+id/remain_cheat_cnt_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="12sp"
+        tools:text="Remain To Cheat Number" />
+
 </LinearLayout>

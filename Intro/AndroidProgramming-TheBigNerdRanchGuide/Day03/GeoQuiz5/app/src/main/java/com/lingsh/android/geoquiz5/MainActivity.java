@@ -20,10 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "QuizActivity";
     private static final String KEY_INDEX = "index";
     private static final int REQUEST_CODE_CHEAT = 0;
-    /**
-     * 作弊问题标识 字符串TAG
-     */
-    private static final String CHEAT_QUESTIONS_LIST = "CheatQuestionsList";
 
     private Button mTrueButton;
     private Button mFalseButton;
@@ -47,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
      * 作弊题目名单
      */
     private boolean[] mCheatQuestionList = new boolean[mQuestionSize];
+    private int mCheatQuestionCnt = 0;
+    private int mCheatQuestionCntMax = 3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,10 +57,12 @@ public class MainActivity extends AppCompatActivity {
             mCurrentIndex = savedInstanceState.getInt(KEY_INDEX, 0);
 
             // 用于解决 旋转清除mIsCheater变量 / 跳转问题清除作弊记录
-            boolean[] mCheatQuestionList = savedInstanceState.getBooleanArray(CHEAT_QUESTIONS_LIST);
+            boolean[] mCheatQuestionList = savedInstanceState.getBooleanArray(CheatActivity.CHEAT_QUESTIONS_LIST);
             if (mCheatQuestionList != null) {
                 this.mCheatQuestionList = mCheatQuestionList;
             }
+
+            mCheatQuestionCnt = savedInstanceState.getInt(CheatActivity.COUNT_CHEAT_RECORD, 0);
         }
 
         mQuestionTextView = findViewById(R.id.question_text_view);
@@ -123,12 +123,16 @@ public class MainActivity extends AppCompatActivity {
                 // 使用intent.putExtra() 父Activity 传参给子Activity
                 // Intent intent = new Intent(MainActivity.this, CheatActivity.class);
                 boolean answerIsTrue = mQuestionBank[mCurrentIndex].isAnswerTrue();
-                Intent intent = CheatActivity.newIntent(MainActivity.this, answerIsTrue);
+                Intent intent = CheatActivity.newIntent(MainActivity.this,
+                        answerIsTrue, mCheatQuestionCnt);
+                Log.d(TAG, "before startActivityForResult() mCheatQuestionCnt=" + mCheatQuestionCnt);
                 // startActivityForResult() 需要子Activity 传参给父Activity
                 // startActivity(intent);
                 startActivityForResult(intent, REQUEST_CODE_CHEAT);
             }
         });
+        // 每次create都会判定一次
+        hideCheatButton(mCheatQuestionCnt >= mCheatQuestionCntMax);
     }
 
     @Override
@@ -144,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
             mIsCheater = CheatActivity.wasAnswerShown(data);
+            setCheatCntInc(mIsCheater);
         }
     }
 
@@ -174,7 +179,8 @@ public class MainActivity extends AppCompatActivity {
         outState.putInt(KEY_INDEX, mCurrentIndex);
         // Bundle 本身是个k-v键值对 但只能存储:1,基本数据类型 2,实现序列化接口的对象
 
-        outState.putBooleanArray(CHEAT_QUESTIONS_LIST, mCheatQuestionList);
+        outState.putBooleanArray(CheatActivity.CHEAT_QUESTIONS_LIST, mCheatQuestionList);
+        outState.putInt(CheatActivity.COUNT_CHEAT_RECORD, mCheatQuestionCnt);
     }
 
     @Override
@@ -211,5 +217,19 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Toast.makeText(MainActivity.this, toastTexId, Toast.LENGTH_SHORT).show();
+    }
+
+    private void hideCheatButton(boolean isCheatAble) {
+        if (isCheatAble) {
+            mCheatButton.setVisibility(View.INVISIBLE);
+        }
+    }
+
+    private void setCheatCntInc(boolean isCheater) {
+        // 接收到已经作弊信号
+        if (isCheater) {
+            mCheatQuestionCnt++;
+        }
+        hideCheatButton(mCheatQuestionCnt >= mCheatQuestionCntMax);
     }
 }
