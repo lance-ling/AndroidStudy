@@ -20,6 +20,8 @@ public class CrimeLab {
             Crime crime = new Crime();
             crime.setTitle("Crime # " + i);
             crime.setSolved((i & 1) == 0);
+            // 每10条记录就有一条需要报警
+            crime.setRequiresPolice((i % 10) == 0 ? 1 : 0);
             mCrimes.add(crime);
         }
     }

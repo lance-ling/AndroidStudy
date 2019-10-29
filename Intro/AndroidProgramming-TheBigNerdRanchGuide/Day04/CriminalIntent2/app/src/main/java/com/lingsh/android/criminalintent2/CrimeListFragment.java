@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -66,11 +67,49 @@ public class CrimeListFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-            Toast.makeText(getActivity(), mCrime.getTitle() + " clicked!", Toast.LENGTH_SHORT).show();
+            String text = mCrime.getTitle() + " clicked! id: " + mCrime.getId();
+            Toast.makeText(getActivity(), text, Toast.LENGTH_SHORT).show();
         }
     }
 
-    private class CrimeAdapter extends RecyclerView.Adapter<CrimeHolder> {
+    private class CrimeRequiredPoliceHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+        private Crime mCrime;
+        private TextView mTitleTextView;
+        private TextView mDateTextView;
+        private Button mCrimeRequiredPoliceButton;
+
+        public CrimeRequiredPoliceHolder(LayoutInflater inflater, ViewGroup parent) {
+            super(inflater.inflate(R.layout.list_item_crime_required_police, parent, false));
+
+            // 使用Holder承担用户点击事件的任务
+            itemView.setOnClickListener(this);
+            // 一次性 实例化相关组件
+            mTitleTextView = itemView.findViewById(R.id.crime_title);
+            mDateTextView = itemView.findViewById(R.id.crime_date);
+            mCrimeRequiredPoliceButton = itemView.findViewById(R.id.crime_required_police_button);
+
+            mCrimeRequiredPoliceButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(getActivity(), R.string.had_link_police, Toast.LENGTH_SHORT).show();
+                }
+            });
+        }
+
+        public void bind(Crime crime) {
+            mCrime = crime;
+            mTitleTextView.setText(mCrime.getTitle());
+            mDateTextView.setText(mCrime.getDate().toString());
+        }
+
+        @Override
+        public void onClick(View v) {
+            String text = mCrime.getTitle() + " clicked! id: " + mCrime.getId();
+            Toast.makeText(getActivity(), text, Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private class CrimeAdapter extends RecyclerView.Adapter {
 
         private List<Crime> mCrimes;
 
@@ -80,22 +119,40 @@ public class CrimeListFragment extends Fragment {
 
         @NonNull
         @Override
-        public CrimeHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
             LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
 
-            return new CrimeHolder(layoutInflater, parent);
+            // 根据getItemViewType获得类型分别返回不同视图
+            if (viewType == 0) {
+                return new CrimeHolder(layoutInflater, parent);
+            } else {
+                return new CrimeRequiredPoliceHolder(layoutInflater, parent);
+            }
         }
 
         @Override
-        public void onBindViewHolder(@NonNull CrimeHolder holder, int position) {
+        public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
             // 绑定相应的Crime实例
             Crime crime = mCrimes.get(position);
-            holder.bind(crime);
+
+            // 根据得到的不同item view type 绑定不同的Fragment视图
+            if (getItemViewType(position) == 0) {
+                ((CrimeHolder) holder).bind(crime);
+            } else {
+                ((CrimeRequiredPoliceHolder) holder).bind(crime);
+            }
         }
 
         @Override
         public int getItemCount() {
             return mCrimes.size();
+        }
+
+        @Override
+        public int getItemViewType(int position) {
+            Crime crime = mCrimes.get(position);
+            // 0:不需要 1:需要
+            return crime.getRequiresPolice();
         }
     }
 }

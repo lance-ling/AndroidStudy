@@ -15,6 +15,8 @@ public class Crime {
     private String mTitle;
     private Date mDate;
     private boolean mSolved;
+    // 添加是否需要报警属性 0:不需要 1:需要
+    private int mRequiresPolice;
 
     public Crime() {
         mId = UUID.randomUUID();
@@ -51,5 +53,13 @@ public class Crime {
 
     public void setSolved(boolean solved) {
         mSolved = solved;
+    }
+
+    public int getRequiresPolice() {
+        return mRequiresPolice;
+    }
+
+    public void setRequiresPolice(int requiresPolice) {
+        mRequiresPolice = requiresPolice;
     }
 }
