@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="question_text">广东是否是广东的省会?</string>
+    <string name="true_button">是的</string>
+    <string name="false_button">不是</string>
+    <string name="correct_toast">答对啦!</string>
+    <string name="incorrect_toast">答错了!</string>
+    <string name="next_button">下一道</string>
+    <string name="prev_button">上一道</string>
+
+    <string name="question_gd">广州是广东的省会吗?</string>
+    <string name="question_animal">企鹅在北极吗?</string>
+    <string name="question_hn">一般海南比广州冷?</string>
+    <string name="question_oceans">太平洋比印度洋面积大?</string>
+    <string name="question_sh">上海邻居北冰洋?</string>
+</resources>
