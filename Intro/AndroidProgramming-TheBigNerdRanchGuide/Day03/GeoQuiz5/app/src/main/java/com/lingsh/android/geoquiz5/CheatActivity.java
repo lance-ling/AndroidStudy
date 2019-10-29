@@ -148,22 +148,28 @@ public class CheatActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             // 添加一个 API 21级(Lollipop)版本的代码
             // 在隐藏按钮的同时显示一段特效动画
-            // bugs: 在横屏的时候mShowAnswerButton的属性被初始化为0
-            int cx = mShowAnswerButton.getWidth() / 2;
-            int cy = mShowAnswerButton.getHeight() / 2;
-            float radius = mShowAnswerButton.getWidth();
-            Animator animator = ViewAnimationUtils.createCircularReveal(
-                    mShowAnswerButton, cx, cy, radius, 0
+            mShowAnswerButton.post(
+                    // 先等按钮视图正确加载
+                    new Runnable() {
+                        @Override
+                        public void run() {
+                            int cx = mShowAnswerButton.getWidth() / 2;
+                            int cy = mShowAnswerButton.getHeight() / 2;
+                            float radius = mShowAnswerButton.getWidth();
+                            Animator animator = ViewAnimationUtils.createCircularReveal(
+                                    mShowAnswerButton, cx, cy, radius, 0
+                            );
+                            animator.addListener(new AnimatorListenerAdapter() {
+                                @Override
+                                public void onAnimationEnd(Animator animation) {
+                                    super.onAnimationEnd(animation);
+                                    mShowAnswerButton.setVisibility(View.INVISIBLE);
+                                }
+                            });
+                            animator.start();
+                        }
+                    }
             );
-            animator.addListener(new AnimatorListenerAdapter() {
-                @Override
-                public void onAnimationEnd(Animator animation) {
-                    super.onAnimationEnd(animation);
-                    mShowAnswerButton.setVisibility(View.INVISIBLE);
-                }
-            });
-            animator.start();
-
         } else {
             // 只是隐藏按钮
             mShowAnswerButton.setVisibility(View.INVISIBLE);
