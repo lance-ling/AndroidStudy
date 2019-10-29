@@ -1,0 +1,38 @@
+10-29 15:36:48.203 10165-10165/? E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.lingsh.android.geoquiz5, PID: 10165
+    java.lang.RuntimeException: Unable to start activity ComponentInfo{com.lingsh.android.geoquiz5/com.lingsh.android.geoquiz5.CheatActivity}: java.lang.IllegalStateException: Cannot start this animator on a detached view!
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2479)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2539)
+        at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:4162)
+        at android.app.ActivityThread.access$1000(ActivityThread.java:168)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1384)
+        at android.os.Handler.dispatchMessage(Handler.java:102)
+        at android.os.Looper.loop(Looper.java:150)
+        at android.app.ActivityThread.main(ActivityThread.java:5659)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:822)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:712)
+     Caused by: java.lang.IllegalStateException: Cannot start this animator on a detached view!
+        at android.view.RenderNode.addAnimator(RenderNode.java:812)
+        at android.view.RenderNodeAnimator.setTarget(RenderNodeAnimator.java:297)
+        at android.view.RenderNodeAnimator.setTarget(RenderNodeAnimator.java:279)
+        at android.animation.RevealAnimator.<init>(RevealAnimator.java:37)
+        at android.view.ViewAnimationUtils.createCircularReveal(ViewAnimationUtils.java:55)
+        at com.lingsh.android.geoquiz5.CheatActivity.hideCheatButton(CheatActivity.java:154)
+        at com.lingsh.android.geoquiz5.CheatActivity.updateCheatView(CheatActivity.java:114)
+        at com.lingsh.android.geoquiz5.CheatActivity.onCreate(CheatActivity.java:68)
+        at android.app.Activity.performCreate(Activity.java:6372)
+        at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1110)
+        at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2432)
+        at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2539) 
+        at android.app.ActivityThread.handleRelaunchActivity(ActivityThread.java:4162) 
+        at android.app.ActivityThread.access$1000(ActivityThread.java:168) 
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1384) 
+        at android.os.Handler.dispatchMessage(Handler.java:102) 
+        at android.os.Looper.loop(Looper.java:150) 
+        at android.app.ActivityThread.main(ActivityThread.java:5659) 
+        at java.lang.reflect.Method.invoke(Native Method) 
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:822) 
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:712) 
+10-29 15:36:48.218 918-6761/? E/ReportTools: This is not beta user build
+
