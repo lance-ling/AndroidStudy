@@ -6,5 +6,8 @@
     <string name="crime_details_label">详细</string>
     <string name="crime_solved_label">解决</string>
     <string name="crime_required_police">联系警察</string>
-    <string name="had_link_police">已经联系警方了!</string>
+    <string name="called_police">已经联系警方了!</string>
+    <string name="crime_title">陋习记录标题</string>
+    <string name="crime_date">陋习记录日期</string>
+    <string name="crime_solved_desc">this crime was solved</string>
 </resources>

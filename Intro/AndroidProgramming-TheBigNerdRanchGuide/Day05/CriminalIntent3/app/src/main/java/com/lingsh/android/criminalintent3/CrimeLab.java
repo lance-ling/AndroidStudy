@@ -19,7 +19,7 @@ public class CrimeLab {
         for (int i = 0; i < 100; i++) {
             Crime crime = new Crime();
             crime.setTitle("Crime # " + i);
-            crime.setSolved((i & 1) == 0);
+            crime.setSolved((i % 3) == 0);
             // 每10条记录就有一条需要报警
             crime.setRequiresPolice((i % 10) == 0 ? 1 : 0);
             mCrimes.add(crime);
