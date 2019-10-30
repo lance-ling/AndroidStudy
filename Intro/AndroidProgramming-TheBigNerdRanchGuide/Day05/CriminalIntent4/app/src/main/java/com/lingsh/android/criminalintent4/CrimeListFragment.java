@@ -47,30 +47,31 @@ public class CrimeListFragment extends Fragment {
         mCrimeRecyclerView.setAdapter(mCrimeAdapter);
     }
 
-    private class CrimeHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+    public abstract class BaseCrimeHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        private Crime mCrime;
-        private TextView mTitleTextView;
-        private TextView mDateTextView;
-        private ImageView mSolvedImageView;
+        protected Crime mCrime;
+        protected TextView mTitleTextView;
+        protected TextView mDateTextView;
 
-        public CrimeHolder(LayoutInflater inflater, ViewGroup parent) {
-            super(inflater.inflate(R.layout.list_item_crime, parent, false));
+        public BaseCrimeHolder(LayoutInflater inflater, ViewGroup parent, int resource) {
+            super(inflater.inflate(resource, parent, false));
 
-            // 使用CrimeHolder承担用户点击事件的任务
             itemView.setOnClickListener(this);
-            // 一次性 实例化相关组件
+
             mTitleTextView = itemView.findViewById(R.id.crime_title);
             mDateTextView = itemView.findViewById(R.id.crime_date);
-            mSolvedImageView = itemView.findViewById(R.id.crime_solved);
+            initialComponents();
         }
 
-        public void bind(Crime crime) {
-            mCrime = crime;
-            mTitleTextView.setText(mCrime.getTitle());
-            mDateTextView.setText(DateFormat.format(inFormat, mCrime.getDate()));
-            mSolvedImageView.setVisibility(crime.isSolved() ? View.VISIBLE : View.GONE);
-        }
+        /**
+         * 让子类初始化自己独有的组件
+         */
+        protected abstract void initialComponents();
+
+        /**
+         * 组件内容绑定 让子类自己实现
+         */
+        protected abstract void bind(Crime crime);
 
         @Override
         public void onClick(View v) {
@@ -79,20 +80,38 @@ public class CrimeListFragment extends Fragment {
         }
     }
 
-    private class CrimeRequiredPoliceHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        private Crime mCrime;
-        private TextView mTitleTextView;
-        private TextView mDateTextView;
+    private class CrimeHolder extends BaseCrimeHolder {
+
+        private ImageView mSolvedImageView;
+
+        public CrimeHolder(LayoutInflater inflater, ViewGroup parent) {
+            super(inflater, parent, R.layout.list_item_crime);
+        }
+
+        @Override
+        protected void initialComponents() {
+            // 一次性 实例化相关组件
+            mSolvedImageView = itemView.findViewById(R.id.crime_solved);
+        }
+
+        @Override
+        public void bind(Crime crime) {
+            mCrime = crime;
+            mTitleTextView.setText(mCrime.getTitle());
+            mDateTextView.setText(DateFormat.format(inFormat, mCrime.getDate()));
+            mSolvedImageView.setVisibility(crime.isSolved() ? View.VISIBLE : View.GONE);
+        }
+    }
+
+    private class CrimeRequiredPoliceHolder extends BaseCrimeHolder {
         private Button mCrimeRequiredPoliceButton;
 
         public CrimeRequiredPoliceHolder(LayoutInflater inflater, ViewGroup parent) {
-            super(inflater.inflate(R.layout.list_item_crime_required_police, parent, false));
+            super(inflater, parent, R.layout.list_item_crime_required_police);
+        }
 
-            // 使用Holder承担用户点击事件的任务
-            itemView.setOnClickListener(this);
-            // 一次性 实例化相关组件
-            mTitleTextView = itemView.findViewById(R.id.crime_title);
-            mDateTextView = itemView.findViewById(R.id.crime_date);
+        @Override
+        protected void initialComponents() {
             mCrimeRequiredPoliceButton = itemView.findViewById(R.id.crime_required_police_button);
 
             mCrimeRequiredPoliceButton.setOnClickListener(new View.OnClickListener() {
@@ -103,16 +122,11 @@ public class CrimeListFragment extends Fragment {
             });
         }
 
+        @Override
         public void bind(Crime crime) {
             mCrime = crime;
             mTitleTextView.setText(mCrime.getTitle());
             mDateTextView.setText(DateFormat.format(inFormat, mCrime.getDate()));
-        }
-
-        @Override
-        public void onClick(View v) {
-            String text = mCrime.getTitle() + " clicked! id: " + mCrime.getId();
-            Toast.makeText(getActivity(), text, Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -126,7 +140,7 @@ public class CrimeListFragment extends Fragment {
 
         @NonNull
         @Override
-        public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        public BaseCrimeHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
             LayoutInflater layoutInflater = LayoutInflater.from(getActivity());
 
             // 根据getItemViewType获得类型分别返回不同视图
