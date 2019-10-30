@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CriminalIntent</string>
+
+    <string name="crime_title_hint">请输入陋习记录的标题.</string>
+    <string name="crime_title_label">标题</string>
+    <string name="crime_details_label">详细</string>
+    <string name="crime_solved_label">解决</string>
+    <string name="crime_required_police">联系警察</string>
+    <string name="had_link_police">已经联系警方了!</string>
+</resources>
