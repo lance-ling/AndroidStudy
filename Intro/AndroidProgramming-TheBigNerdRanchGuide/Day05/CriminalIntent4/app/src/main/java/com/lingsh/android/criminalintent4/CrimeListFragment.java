@@ -1,5 +1,6 @@
 package com.lingsh.android.criminalintent4;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
@@ -38,13 +39,29 @@ public class CrimeListFragment extends Fragment {
         return view;
     }
 
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        // 此处使用resume而不是start
+        // 是因为如果前面的activity是透明的, 那么本页面可能只是在暂停状态, 不会触发start
+        // 而resume是返回页面必然触发
+        // 实现从详细页面返回后直接刷新列表信息
+        updateUI();
+    }
+
     private void updateUI() {
         CrimeLab crimeLab = CrimeLab.get(getActivity());
         List<Crime> crimes = crimeLab.getCrimes();
 
-        mCrimeAdapter = new CrimeAdapter(crimes);
-        // 关联RecyclerView和Adapter
-        mCrimeRecyclerView.setAdapter(mCrimeAdapter);
+        if (mCrimeAdapter == null) {
+            mCrimeAdapter = new CrimeAdapter(crimes);
+            // 关联RecyclerView和Adapter
+            mCrimeRecyclerView.setAdapter(mCrimeAdapter);
+        } else {
+            mCrimeAdapter.notifyDataSetChanged();
+        }
     }
 
     public abstract class BaseCrimeHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
@@ -75,8 +92,9 @@ public class CrimeListFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-            String text = mCrime.getTitle() + " clicked! id: " + mCrime.getId();
-            Toast.makeText(getActivity(), text, Toast.LENGTH_SHORT).show();
+            // 从Fragment调用Activity
+            Intent intent = CrimeActivity.newIntent(getActivity(), mCrime.getId());
+            startActivity(intent);
         }
     }
 
