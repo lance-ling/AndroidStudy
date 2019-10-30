@@ -3,6 +3,8 @@ package com.lingsh.android.criminalintent5;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,6 +23,8 @@ public class CrimePagerActivity extends AppCompatActivity {
     private static final String EXTRA_CRIME_ID = "com.lingsh.android.criminalintent.crime_id";
 
     private ViewPager mViewPager;
+    private Button mToFirstButton;
+    private Button mToLastButton;
     private List<Crime> mCrimes;
 
     public static Intent newIntent(Context packageContext, UUID crimeId) {
@@ -35,7 +39,23 @@ public class CrimePagerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_crime_pager);
 
         mViewPager = findViewById(R.id.activity_crime_pager_view_pager);
+        mToFirstButton = findViewById(R.id.pager_view_to_first_button);
+        mToLastButton = findViewById(R.id.pager_view_to_last_button);
         mCrimes = CrimeLab.get(this).getCrimes();
+
+        mToFirstButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mViewPager.setCurrentItem(0);
+            }
+        });
+
+        mToLastButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mViewPager.setCurrentItem(mCrimes.size() - 1);
+            }
+        });
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         // Note: FragmentStatePagerAdapter 与 FragmentPagerAdapter
@@ -53,6 +73,34 @@ public class CrimePagerActivity extends AppCompatActivity {
             @Override
             public int getCount() {
                 return mCrimes.size();
+            }
+        });
+        mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                if (position == 0) {
+                    // 在第一页
+                    mToFirstButton.setVisibility(View.INVISIBLE);
+                    mToLastButton.setVisibility(View.VISIBLE);
+                } else if (position == mCrimes.size() - 1) {
+                    // 在末一页
+                    mToFirstButton.setVisibility(View.VISIBLE);
+                    mToLastButton.setVisibility(View.INVISIBLE);
+                } else {
+                    // 在中间页
+                    mToFirstButton.setVisibility(View.VISIBLE);
+                    mToLastButton.setVisibility(View.VISIBLE);
+                }
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
             }
         });
 
