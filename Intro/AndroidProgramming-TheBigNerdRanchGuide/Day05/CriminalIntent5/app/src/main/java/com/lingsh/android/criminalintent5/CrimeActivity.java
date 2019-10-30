@@ -8,6 +8,10 @@ import androidx.fragment.app.Fragment;
 
 import java.util.UUID;
 
+/**
+ * 在功能上, 使用CrimePagerActivity替代
+ */
+@Deprecated
 public class CrimeActivity extends SingleFragmentActivity {
 
     // 自产自销

@@ -25,8 +25,6 @@ public class CrimeListFragment extends Fragment {
     private CrimeAdapter mCrimeAdapter;
     // case: "Friday, Jul 22, 2016"
     private String inFormat = "EE, MMM dd, yyyy";
-    // 当前更新列表项位置
-    private int position = -1;
 
     @Nullable
     @Override
@@ -62,16 +60,9 @@ public class CrimeListFragment extends Fragment {
             // 关联RecyclerView和Adapter
             mCrimeRecyclerView.setAdapter(mCrimeAdapter);
         } else {
-            // 实现高效的RecyclerView刷新
+            // 因为ViewPager可以左右滑动 修改的记录可能会有多条 而position只能记住点击的列表项
             // notifyDataSetChanged()方法会通知RecyclerView刷新全部的可见列表项
-            // mCrimeAdapter.notifyDataSetChanged();
-            // 因为返回列表页面时, 最多可能只有一个列表项会发生变化
-            // notifyItemChanged()可以指定刷新具体位置的列表项
-            if (position != -1) {
-                mCrimeAdapter.notifyItemChanged(position);
-            } else {
-                mCrimeAdapter.notifyDataSetChanged();
-            }
+            mCrimeAdapter.notifyDataSetChanged();
         }
     }
 
@@ -103,10 +94,9 @@ public class CrimeListFragment extends Fragment {
 
         @Override
         public void onClick(View v) {
-            // 获得该ItemView的位置
-            position = mCrimeRecyclerView.getChildAdapterPosition(v);
             // 从Fragment调用Activity
-            Intent intent = CrimeActivity.newIntent(getActivity(), mCrime.getId());
+            // Intent intent = CrimeActivity.newIntent(getActivity(), mCrime.getId());
+            Intent intent = CrimePagerActivity.newIntent(getActivity(), mCrime.getId());
             startActivity(intent);
         }
     }
