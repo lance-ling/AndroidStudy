@@ -3,17 +3,21 @@ package com.lingsh.android.criminalintent4;
 import android.content.Context;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 public class CrimeLab {
     private static CrimeLab sCrimeLab;
 
-    private List<Crime> mCrimes;
+    // 使用一个更方便于查找的数据结构
+    // private List<Crime> mCrimes;
+    private Map<UUID, Crime> mCrimes;
 
     // 私有构造方法 单例做法
     private CrimeLab(Context context) {
-        mCrimes = new ArrayList<>();
+        mCrimes = new LinkedHashMap<>();
 
         // 自测
         for (int i = 0; i < 100; i++) {
@@ -22,7 +26,7 @@ public class CrimeLab {
             crime.setSolved((i % 3) == 0);
             // 每10条记录就有一条需要报警
             crime.setRequiresPolice((i % 10) == 0 ? 1 : 0);
-            mCrimes.add(crime);
+            mCrimes.put(crime.getId(), crime);
         }
     }
 
@@ -35,16 +39,10 @@ public class CrimeLab {
     }
 
     public List<Crime> getCrimes() {
-        return mCrimes;
+        return new ArrayList<>(mCrimes.values());
     }
 
     public Crime getCrime(UUID uuid) {
-        for (Crime crime : mCrimes) {
-            if (crime.getId().equals(uuid)) {
-                return crime;
-            }
-        }
-
-        return null;
+        return mCrimes.get(uuid);
     }
 }
