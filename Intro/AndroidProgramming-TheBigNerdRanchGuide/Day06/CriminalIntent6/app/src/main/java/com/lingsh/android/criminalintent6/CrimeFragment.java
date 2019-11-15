@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +19,7 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 import java.util.UUID;
@@ -26,12 +28,20 @@ public class CrimeFragment extends Fragment {
 
     private static final String ARG_CRIME_ID = "crime_id";
     private static final String DIALOG_DATE = "DialogDate";
+    private static final String DIALOG_TIME = "DialogTime";
 
     private static final int REQUEST_DATE = 0;
+    private static final int REQUEST_TIME = 0;
+
+    // 2109-11-01 星期五
+    private String inFormatDateYMDE = "yyyy-MM-dd EE";
+    // 17:17:17
+    private String inFormatTimehms = "hh:mm:ss";
 
     private Crime mCrime;
     private EditText mTitleField;
     private Button mDateButton;
+    private Button mTimeButton;
     private CheckBox mSolvedCheckBox;
 
     public static CrimeFragment newInstance(UUID crimeId) {
@@ -62,6 +72,7 @@ public class CrimeFragment extends Fragment {
         // 同一绑定组件
         mTitleField = view.findViewById(R.id.crime_title);
         mDateButton = view.findViewById(R.id.crime_date);
+        mTimeButton = view.findViewById(R.id.crime_time);
         mSolvedCheckBox = view.findViewById(R.id.crime_solved);
 
         // 对组件进行操作
@@ -98,6 +109,17 @@ public class CrimeFragment extends Fragment {
             }
         });
 
+        updateTime();
+        mTimeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FragmentManager fragmentManager = getFragmentManager();
+                TimePickerFragment dialog = TimePickerFragment.newInstance(mCrime.getDate());
+                dialog.setTargetFragment(CrimeFragment.this, REQUEST_TIME);
+                dialog.show(Objects.requireNonNull(fragmentManager), DIALOG_TIME);
+            }
+        });
+
         mSolvedCheckBox.setChecked(mCrime.isSolved());
         mSolvedCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -120,9 +142,40 @@ public class CrimeFragment extends Fragment {
             mCrime.setDate(date);
             updateDate();
         }
+
+        if (requestCode == REQUEST_TIME) {
+            Date time = (Date) data.getSerializableExtra(TimePickerFragment.EXTRA_TIME);
+            mCrime.setDate(time);
+            updateTime();
+        }
     }
 
     private void updateDate() {
-        mDateButton.setText(mCrime.getDate().toString());
+        // mDateButton.setText(mCrime.getDate().toString());
+        mDateButton.setText(DateFormat.format(inFormatDateYMDE, mCrime.getDate()));
+    }
+
+    /**
+     * TODO: fix bugs
+     * E/AndroidRuntime: FATAL EXCEPTION: main
+     *     Process: com.lingsh.android.criminalintent6, PID: 14279
+     *     java.lang.NullPointerException: Attempt to invoke virtual method 'long java.util.Date.getTime()' on a null object reference
+     *         at java.util.Calendar.setTime(Calendar.java:1197)
+     *         at android.text.format.DateFormat.format(DateFormat.java:355)
+     *         at com.lingsh.android.criminalintent6.CrimeFragment.updateDate(CrimeFragment.java:155)
+     *         at com.lingsh.android.criminalintent6.CrimeFragment.onActivityResult(CrimeFragment.java:143)
+     *         at com.lingsh.android.criminalintent6.TimePickerFragment.sendResult(TimePickerFragment.java:96)
+     *         at com.lingsh.android.criminalintent6.TimePickerFragment.access$100(TimePickerFragment.java:23)
+     *         at com.lingsh.android.criminalintent6.TimePickerFragment$1.onClick(TimePickerFragment.java:82)
+     *         at androidx.appcompat.app.AlertController$ButtonHandler.handleMessage(AlertController.java:167)
+     *         at android.os.Handler.dispatchMessage(Handler.java:102)
+     *         at android.os.Looper.loop(Looper.java:150)
+     *         at android.app.ActivityThread.main(ActivityThread.java:5659)
+     *         at java.lang.reflect.Method.invoke(Native Method)
+     *         at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:822)
+     *         at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:712)
+     */
+    private void updateTime() {
+        mTimeButton.setText(DateFormat.format(inFormatTimehms, mCrime.getDate()));
     }
 }
