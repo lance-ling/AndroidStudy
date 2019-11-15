@@ -150,19 +150,10 @@ public class CrimeFragment extends Fragment {
     }
 
     private void updateDate() {
-        Date date = mCrime.getDate();
-        String inFormatDateYMDE = this.inFormatDateYMDE;
-        CharSequence format = DateFormat.format(inFormatDateYMDE, date);
-        System.out.printf("date:%s\tformat:%s\tresult:%s\n", date, inFormatDateYMDE, format);
-
-        mDateButton.setText(format);
+        mDateButton.setText(DateFormat.format(inFormatDateYMDE, mCrime.getDate()));
     }
 
     private void updateTime() {
-        Date date = mCrime.getDate();
-        CharSequence format = DateFormat.format(inFormatTimehms, date);
-        System.out.printf("date:%s\tformat:%s\tresult:%s\n", date, inFormatTimehms, format);
-
-        mTimeButton.setText(format);
+        mTimeButton.setText(DateFormat.format(inFormatTimehms, mCrime.getDate()));
     }
 }
