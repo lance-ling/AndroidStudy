@@ -158,26 +158,6 @@ public class CrimeFragment extends Fragment {
         mDateButton.setText(format);
     }
 
-    /**
-     * TODO: fix bugs
-     * E/AndroidRuntime: FATAL EXCEPTION: main
-     * Process: com.lingsh.android.criminalintent6, PID: 14279
-     * java.lang.NullPointerException: Attempt to invoke virtual method 'long java.util.Date.getTime()' on a null object reference
-     * at java.util.Calendar.setTime(Calendar.java:1197)
-     * at android.text.format.DateFormat.format(DateFormat.java:355)
-     * at com.lingsh.android.criminalintent6.CrimeFragment.updateDate(CrimeFragment.java:155)
-     * at com.lingsh.android.criminalintent6.CrimeFragment.onActivityResult(CrimeFragment.java:143)
-     * at com.lingsh.android.criminalintent6.TimePickerFragment.sendResult(TimePickerFragment.java:96)
-     * at com.lingsh.android.criminalintent6.TimePickerFragment.access$100(TimePickerFragment.java:23)
-     * at com.lingsh.android.criminalintent6.TimePickerFragment$1.onClick(TimePickerFragment.java:82)
-     * at androidx.appcompat.app.AlertController$ButtonHandler.handleMessage(AlertController.java:167)
-     * at android.os.Handler.dispatchMessage(Handler.java:102)
-     * at android.os.Looper.loop(Looper.java:150)
-     * at android.app.ActivityThread.main(ActivityThread.java:5659)
-     * at java.lang.reflect.Method.invoke(Native Method)
-     * at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:822)
-     * at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:712)
-     */
     private void updateTime() {
         Date date = mCrime.getDate();
         CharSequence format = DateFormat.format(inFormatTimehms, date);
